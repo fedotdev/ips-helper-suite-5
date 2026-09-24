@@ -1,0 +1,3572 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WholeScript>
+  <DocParms>
+    <DocType_GUID>cad00198-306c-11d8-b4e9-00304f19f545</DocType_GUID>
+    <DocType_Name>Технологические документы ТП</DocType_Name>
+    <DocName>{Обозначение}</DocName>
+    <show_info>Y</show_info>
+    <all_node>N</all_node>
+    <thisObj_Doc>N</thisObj_Doc>
+    <all_zamens>N</all_zamens>
+    <coWorker_Template>N</coWorker_Template>
+    <Checkout_Docs>N</Checkout_Docs>
+    <Classify>N</Classify>
+  </DocParms>
+  <ExpScript xmlns="http://www.intermech.ru/Expert-System">
+    <node label="нумерация" modTag="-1" opTag="18">
+      <Op-Parms>
+        <set-kind>0</set-kind>
+        <Attr-ObjType>
+          <Attr-Link>
+            <GUID>cad01476-306c-11d8-b4e9-00304f19f545</GUID>
+            <Name>Переменная ID</Name>
+          </Attr-Link>
+        </Attr-ObjType>
+        <setMode>O</setMode>
+        <Formula>
+          <res-type>0</res-type>
+          <res-mult>N</res-mult>
+          <infix-form count="1">
+            <Token type="5" info="0">
+              <text>1</text>
+              <i-value>1</i-value>
+            </Token>
+          </infix-form>
+          <postfix-form count="1">
+            <Token type="5" info="0">
+              <text>1</text>
+              <i-value>1</i-value>
+            </Token>
+          </postfix-form>
+        </Formula>
+      </Op-Parms>
+    </node>
+    <node label="Параметры техпроцесса" modTag="-1" opTag="16">
+      <Op-Parms />
+      <node label="--- Наименование ГТП" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>FDNL</ID>
+          <Name>Наименование изделия в документе по единичному ТП</Name>
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad00020-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Наименование</Name>
+            </Attr-Link>
+            <Attr-Link>
+              <GUID>cad00186-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Техпроцесс групповой</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Организация" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>5239</ID>
+          <Name />
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad0002c-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Номер версии объекта</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Formula>
+            <res-type>3</res-type>
+            <res-mult>N</res-mult>
+            <infix-form count="3">
+              <Token type="10" info="0">
+                <text>&lt;Ссылка на организацию&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+              <Token type="0" info="1">
+                <text>-&gt;</text>
+              </Token>
+              <Token type="10" info="1">
+                <text>&lt;Организации&gt;.&lt;Наименование&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+            </infix-form>
+            <postfix-form count="2">
+              <Token type="10" info="0">
+                <text>&lt;Ссылка на организацию&gt;</text>
+                <i-value>47802</i-value>
+              </Token>
+              <Token type="10" info="1">
+                <text>&lt;Организации&gt;.&lt;Наименование&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+            </postfix-form>
+            <Used-Attrs count="2">
+              <Attr-Info>
+                <attrID>18071</attrID>
+                <objTypeID>-1</objTypeID>
+                <Full-Attr>
+                  <aGUID>4487125d-96e5-4d5d-9afa-e317a4803bbf</aGUID>
+                  <oGUID />
+                </Full-Attr>
+                <Pair-Name>
+                  <attr-shortname />
+                  <attr-longname>Ссылка на организацию</attr-longname>
+                  <objType-shortname />
+                  <objType-longname />
+                  <field-type>8</field-type>
+                  <multi>N</multi>
+                </Pair-Name>
+              </Attr-Info>
+              <Attr-Info>
+                <attrID>10</attrID>
+                <objTypeID>1604</objTypeID>
+                <Full-Attr>
+                  <aGUID>cad00020-306c-11d8-b4e9-00304f19f545</aGUID>
+                  <oGUID>cadd9231-306c-11d8-b4e9-00304f19f545</oGUID>
+                </Full-Attr>
+                <Pair-Name>
+                  <attr-shortname />
+                  <attr-longname>Наименование</attr-longname>
+                  <objType-shortname />
+                  <objType-longname>Организации</objType-longname>
+                  <field-type>1</field-type>
+                  <multi>N</multi>
+                </Pair-Name>
+              </Attr-Info>
+            </Used-Attrs>
+          </Formula>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Номер версии объекта" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>№ вер</ID>
+          <Name>Версия</Name>
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad0002c-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Номер версии объекта</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Formula>
+            <res-type>3</res-type>
+            <res-mult>N</res-mult>
+            <infix-form count="3">
+              <Token type="10" info="0">
+                <text>&lt;Номер версии объекта&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+              <Token type="1" info="0">
+                <text> + </text>
+              </Token>
+              <Token type="5" info="0">
+                <text>1</text>
+                <i-value>1</i-value>
+              </Token>
+            </infix-form>
+            <postfix-form count="3">
+              <Token type="10" info="0">
+                <text>&lt;Номер версии объекта&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+              <Token type="5" info="0">
+                <text>1</text>
+                <i-value>1</i-value>
+              </Token>
+              <Token type="1" info="0">
+                <text> + </text>
+              </Token>
+            </postfix-form>
+            <Used-Attrs count="1">
+              <Attr-Info>
+                <attrID>-5</attrID>
+                <objTypeID>-1</objTypeID>
+                <Full-Attr>
+                  <aGUID>cad0002c-306c-11d8-b4e9-00304f19f545</aGUID>
+                  <oGUID />
+                </Full-Attr>
+                <Pair-Name>
+                  <attr-shortname />
+                  <attr-longname>Номер версии объекта</attr-longname>
+                  <objType-shortname />
+                  <objType-longname />
+                  <field-type>15</field-type>
+                  <multi>N</multi>
+                </Pair-Name>
+              </Attr-Info>
+            </Used-Attrs>
+          </Formula>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Номер КТД" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>ОКДТ</ID>
+          <Name>Обозначение комплекта документов техпроцесса</Name>
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cae08b6e-3f3d-46cb-be7d-e509d90d5330</GUID>
+              <Name>Номер комплекта технологических документов</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Номер ВТД(ВТО)" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>О_ТД</ID>
+          <Name>Обозначение документа</Name>
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>13777273-44ac-443c-a8f8-318b4ad0a4ad</GUID>
+              <Name>Номер ВТД/ВТП/ВТО</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Наименование изделия" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>FDNL</ID>
+          <Name>Наименование изделия в документе по единичному ТП</Name>
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad00020-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Наименование</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Номер изменения" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>55</ID>
+          <Name />
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad00770-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Номер изменения</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="Номер Извещения" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>57</ID>
+          <Name />
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad00770-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Номер изменения</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Formula>
+            <res-type>3</res-type>
+            <res-mult>N</res-mult>
+            <infix-form count="3">
+              <Token type="10" info="0">
+                <text>Баз.ТП.&lt;Извещение&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+              <Token type="0" info="1">
+                <text>-&gt;</text>
+              </Token>
+              <Token type="10" info="1">
+                <text>&lt;Извещения&gt;.&lt;Обозначение&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+            </infix-form>
+            <postfix-form count="2">
+              <Token type="10" info="0">
+                <text>Баз.ТП.&lt;Извещение&gt;</text>
+                <i-value>47802</i-value>
+              </Token>
+              <Token type="10" info="1">
+                <text>&lt;Извещения&gt;.&lt;Обозначение&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+            </postfix-form>
+            <Used-Attrs count="2">
+              <Attr-Info>
+                <attrID>17918</attrID>
+                <objTypeID>1117</objTypeID>
+                <Full-Attr>
+                  <aGUID>cadd9645-306c-11d8-b4e9-00304f19f545</aGUID>
+                  <oGUID>cad00185-306c-11d8-b4e9-00304f19f545</oGUID>
+                </Full-Attr>
+                <Pair-Name>
+                  <attr-shortname />
+                  <attr-longname>Извещение</attr-longname>
+                  <objType-shortname>Баз.ТП</objType-shortname>
+                  <objType-longname>Техпроцесс базовый</objType-longname>
+                  <field-type>8</field-type>
+                  <multi>N</multi>
+                </Pair-Name>
+              </Attr-Info>
+              <Attr-Info>
+                <attrID>9</attrID>
+                <objTypeID>1066</objTypeID>
+                <Full-Attr>
+                  <aGUID>cad0001f-306c-11d8-b4e9-00304f19f545</aGUID>
+                  <oGUID>cad00348-306c-11d8-b4e9-00304f19f545</oGUID>
+                </Full-Attr>
+                <Pair-Name>
+                  <attr-shortname />
+                  <attr-longname>Обозначение</attr-longname>
+                  <objType-shortname />
+                  <objType-longname>Извещения</objType-longname>
+                  <field-type>1</field-type>
+                  <multi>N</multi>
+                </Pair-Name>
+              </Attr-Info>
+            </Used-Attrs>
+          </Formula>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+      <node label="литера" modTag="-1" opTag="19">
+        <Op-Parms>
+          <ID>Ceh</ID>
+          <Name>Цех</Name>
+          <Bold>N</Bold>
+          <Italic>N</Italic>
+          <Underline>N</Underline>
+          <ActiveLink>N</ActiveLink>
+          <LinkThisDoc>N</LinkThisDoc>
+          <AuthFile>N</AuthFile>
+          <Tag />
+          <Attr-ObjType>
+            <Attr-Link>
+              <GUID>cad0038b-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Литера</Name>
+            </Attr-Link>
+          </Attr-ObjType>
+          <Color>0</Color>
+        </Op-Parms>
+      </node>
+    </node>
+    <node label="Рабочая область" modTag="-1" opTag="16">
+      <Op-Parms />
+      <node label="Выбираем рабочую область" modTag="-1" opTag="21">
+        <Op-Parms>
+          <ID>Рабочая область</ID>
+          <Name>Рабочая область</Name>
+        </Op-Parms>
+      </node>
+      <node label="Для всех операций" modTag="0" opTag="10">
+        <Mod-Parms>
+          <saveContext>N</saveContext>
+          <forAllIsps>N</forAllIsps>
+        </Mod-Parms>
+        <Op-Parms>
+          <Dups>N</Dups>
+          <InbuiltSort>N</InbuiltSort>
+          <useCurrentIsps>N</useCurrentIsps>
+          <useGlobal>0</useGlobal>
+          <saveGlobal>0</saveGlobal>
+          <AddThis>N</AddThis>
+          <NoSearch>Y</NoSearch>
+          <ConfigOptions>N</ConfigOptions>
+          <ShowHidden>0</ShowHidden>
+          <data-attrs num="2">
+            <Attr-Link>
+              <GUID>cad00202-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>SORT</Name>
+              <Link>Ya</Link>
+            </Attr-Link>
+            <Attr-Link>
+              <GUID>cad001c1-306c-11d8-b4e9-00304f19f545</GUID>
+              <Name>Номер заменителя в группе</Name>
+              <Link>Y</Link>
+            </Attr-Link>
+          </data-attrs>
+          <object-types num="1">
+            <GUID>1075</GUID>
+            <_GUID>cad00178-306c-11d8-b4e9-00304f19f545</_GUID>
+          </object-types>
+          <ispWork>0</ispWork>
+          <objTypeForGlobal />
+        </Op-Parms>
+        <node label="Материал" modTag="0" opTag="10">
+          <Mod-Parms>
+            <saveContext>N</saveContext>
+            <forAllIsps>N</forAllIsps>
+          </Mod-Parms>
+          <Op-Parms>
+            <Dups>N</Dups>
+            <InbuiltSort>N</InbuiltSort>
+            <useCurrentIsps>N</useCurrentIsps>
+            <useGlobal>0</useGlobal>
+            <saveGlobal>0</saveGlobal>
+            <AddThis>N</AddThis>
+            <NoSearch>Y</NoSearch>
+            <ConfigOptions>N</ConfigOptions>
+            <ShowHidden>0</ShowHidden>
+            <data-attrs num="1">
+              <Attr-Link>
+                <GUID>cad00267-306c-11d8-b4e9-00304f19f545</GUID>
+                <Name>Кол.</Name>
+                <Link>Y</Link>
+              </Attr-Link>
+            </data-attrs>
+            <object-types num="1">
+              <GUID>1021</GUID>
+              <_GUID>cad00170-306c-11d8-b4e9-00304f19f545</_GUID>
+            </object-types>
+            <ispWork>0</ispWork>
+            <objTypeForGlobal />
+          </Op-Parms>
+          <node label="Создание строки для материала" modTag="-1" opTag="20">
+            <Op-Parms>
+              <ID>VV2</ID>
+              <Name>VV2</Name>
+              <make-current>Y</make-current>
+              <fill-children>N</fill-children>
+              <byDefault>N</byDefault>
+              <avoidDup>N</avoidDup>
+              <curForever>N</curForever>
+              <Tag />
+            </Op-Parms>
+            <node label="Наименование" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>ВЗГ</ID>
+                <Name>Вид заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad00020-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Наименование</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="9">
+                      <text>СТР(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>&lt;Марка материала&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="1">
+                    <Token type="4" info="9">
+                      <text>СТР(&lt;Марка материала&gt;)</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1226</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>424e4095-d402-44f1-b3c8-379ac6e60e8c</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Марка материала</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="#Обозначние, код" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>РАЗМ</ID>
+                <Name>Размеры заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="7">
+                    <Token type="10" info="2">
+                      <text>&lt;Наименование&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>&lt;Обозначение&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="7" info="0">
+                      <text>"; "</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>&lt;Код ОКП&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="7">
+                    <Token type="10" info="2">
+                      <text>&lt;Наименование&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>&lt;Обозначение&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="7" info="0">
+                      <text>"; "</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>&lt;Код ОКП&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="3">
+                    <Attr-Info>
+                      <attrID>9</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0001f-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Обозначение</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>1</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>1025</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038a-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Код ОКП</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>1</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>10</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00020-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Наименование</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>1</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="#ЕВ" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>МАС</ID>
+                <Name>Масса</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="50">
+                      <text>ЕИЗМ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>Кол.</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="0">
+                      <text>Кол.</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="50">
+                      <text>ЕИЗМ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1129</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00267-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname>Кол.</attr-shortname>
+                        <attr-longname>Количество</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="#Н. расхода" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>НР</ID>
+                <Name>Норма расхода материала</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>Кол.</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="0">
+                      <text>Кол.</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1129</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00267-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname>Кол.</attr-shortname>
+                        <attr-longname>Количество</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+          </node>
+        </node>
+        <node label="Пробел между операциями" modTag="-1" opTag="20">
+          <Op-Parms>
+            <ID>КомД</ID>
+            <Name>Комментарий</Name>
+            <make-current>Y</make-current>
+            <fill-children>N</fill-children>
+            <byDefault>N</byDefault>
+            <avoidDup>N</avoidDup>
+            <curForever>N</curForever>
+            <Tag />
+          </Op-Parms>
+        </node>
+      </node>
+      <node label="Для каждого ЕТП из ГТП" modTag="0" opTag="14">
+        <Mod-Parms>
+          <Formula>
+            <res-type>5</res-type>
+            <res-mult>N</res-mult>
+            <infix-form count="3">
+              <Token type="10" info="0">
+                <text>&lt;Тип объекта&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+              <Token type="1" info="0">
+                <text>=</text>
+              </Token>
+              <Token type="5" info="0">
+                <text>Техпроцесс единичный</text>
+                <i-value>1237</i-value>
+              </Token>
+            </infix-form>
+            <postfix-form count="3">
+              <Token type="10" info="0">
+                <text>&lt;Тип объекта&gt;</text>
+                <i-value>0</i-value>
+              </Token>
+              <Token type="5" info="0">
+                <text>Техпроцесс единичный</text>
+                <i-value>1237</i-value>
+              </Token>
+              <Token type="1" info="0">
+                <text>=</text>
+              </Token>
+            </postfix-form>
+            <Used-Attrs count="1">
+              <Attr-Info>
+                <attrID>-7</attrID>
+                <objTypeID>-1</objTypeID>
+                <Full-Attr>
+                  <aGUID>cad0002e-306c-11d8-b4e9-00304f19f545</aGUID>
+                  <oGUID />
+                </Full-Attr>
+                <Pair-Name>
+                  <attr-shortname />
+                  <attr-longname>Тип объекта</attr-longname>
+                  <objType-shortname />
+                  <objType-longname />
+                  <field-type>15</field-type>
+                  <multi>N</multi>
+                </Pair-Name>
+              </Attr-Info>
+            </Used-Attrs>
+          </Formula>
+          <saveContext>N</saveContext>
+          <forAllIsps>N</forAllIsps>
+        </Mod-Parms>
+        <Op-Parms>
+          <Dups>N</Dups>
+          <InbuiltSort>N</InbuiltSort>
+          <useCurrentIsps>N</useCurrentIsps>
+          <useGlobal>0</useGlobal>
+          <saveGlobal>0</saveGlobal>
+          <AddThis>N</AddThis>
+          <NoSearch>Y</NoSearch>
+          <ConfigOptions>N</ConfigOptions>
+          <ShowHidden>0</ShowHidden>
+          <link-types num="1">
+            <GUID>1006</GUID>
+            <_GUID>cad005b8-306c-11d8-b4e9-00304f19f545</_GUID>
+          </link-types>
+          <ispWork>0</ispWork>
+          <objTypeForGlobal />
+        </Op-Parms>
+        <node label="Строка изделия" modTag="-1" opTag="20">
+          <Op-Parms>
+            <ID>VV1</ID>
+            <Name>VV1</Name>
+            <make-current>Y</make-current>
+            <fill-children>N</fill-children>
+            <byDefault>N</byDefault>
+            <avoidDup>N</avoidDup>
+            <curForever>N</curForever>
+            <Tag />
+          </Op-Parms>
+          <node label="номер" modTag="-1" opTag="19">
+            <Op-Parms>
+              <ID>NV1001</ID>
+              <Name>NV1001</Name>
+              <Bold>Y</Bold>
+              <Italic>N</Italic>
+              <Underline>N</Underline>
+              <ActiveLink>N</ActiveLink>
+              <LinkThisDoc>N</LinkThisDoc>
+              <AuthFile>N</AuthFile>
+              <Tag />
+              <Attr-ObjType>
+                <Attr-Link>
+                  <GUID>cad01476-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>Переменная ID</Name>
+                </Attr-Link>
+              </Attr-ObjType>
+              <Color>0</Color>
+            </Op-Parms>
+          </node>
+          <node label="Обозначение ДСЕ" modTag="-1" opTag="19">
+            <Op-Parms>
+              <ID>ОБОЗ</ID>
+              <Name>Обозначение детали</Name>
+              <Bold>Y</Bold>
+              <Italic>N</Italic>
+              <Underline>N</Underline>
+              <ActiveLink>N</ActiveLink>
+              <LinkThisDoc>N</LinkThisDoc>
+              <AuthFile>N</AuthFile>
+              <Tag />
+              <Attr-ObjType>
+                <Attr-Link>
+                  <GUID>cad0001f-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>Обозначение</Name>
+                </Attr-Link>
+                <Attr-Link>
+                  <GUID>cad00268-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>Изделия</Name>
+                </Attr-Link>
+              </Attr-ObjType>
+              <Color>0</Color>
+            </Op-Parms>
+          </node>
+          <node label="Наименование ДСЕ" modTag="-1" opTag="19">
+            <Op-Parms>
+              <ID>НАИМ</ID>
+              <Name>Наименование детали</Name>
+              <Bold>Y</Bold>
+              <Italic>N</Italic>
+              <Underline>N</Underline>
+              <ActiveLink>N</ActiveLink>
+              <LinkThisDoc>N</LinkThisDoc>
+              <AuthFile>N</AuthFile>
+              <Tag />
+              <Attr-ObjType>
+                <Attr-Link>
+                  <GUID>cad00020-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>Наименование</Name>
+                </Attr-Link>
+                <Attr-Link>
+                  <GUID>cad00268-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>Изделия</Name>
+                </Attr-Link>
+              </Attr-ObjType>
+              <Color>0</Color>
+            </Op-Parms>
+          </node>
+          <node label="нумерация" modTag="-1" opTag="18">
+            <Op-Parms>
+              <set-kind>0</set-kind>
+              <Attr-ObjType>
+                <Attr-Link>
+                  <GUID>cad01476-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>Переменная ID</Name>
+                </Attr-Link>
+              </Attr-ObjType>
+              <setMode>O</setMode>
+              <Formula>
+                <res-type>0</res-type>
+                <res-mult>N</res-mult>
+                <infix-form count="3">
+                  <Token type="5" info="0">
+                    <text>1</text>
+                    <i-value>1</i-value>
+                  </Token>
+                  <Token type="1" info="0">
+                    <text> + </text>
+                  </Token>
+                  <Token type="10" info="0">
+                    <text>&lt;Переменная ID&gt;</text>
+                    <i-value>0</i-value>
+                  </Token>
+                </infix-form>
+                <postfix-form count="3">
+                  <Token type="5" info="0">
+                    <text>1</text>
+                    <i-value>1</i-value>
+                  </Token>
+                  <Token type="10" info="0">
+                    <text>&lt;Переменная ID&gt;</text>
+                    <i-value>0</i-value>
+                  </Token>
+                  <Token type="1" info="0">
+                    <text> + </text>
+                  </Token>
+                </postfix-form>
+                <Used-Attrs count="1">
+                  <Attr-Info>
+                    <attrID>10038</attrID>
+                    <objTypeID>-1</objTypeID>
+                    <Full-Attr>
+                      <aGUID>cad01476-306c-11d8-b4e9-00304f19f545</aGUID>
+                      <oGUID />
+                    </Full-Attr>
+                    <Pair-Name>
+                      <attr-shortname />
+                      <attr-longname>Переменная ID</attr-longname>
+                      <objType-shortname />
+                      <objType-longname />
+                      <field-type>2</field-type>
+                      <multi>N</multi>
+                    </Pair-Name>
+                  </Attr-Info>
+                </Used-Attrs>
+              </Formula>
+            </Op-Parms>
+          </node>
+        </node>
+        <node label="Для всех операций" modTag="0" opTag="14">
+          <Mod-Parms>
+            <Formula>
+              <res-type>5</res-type>
+              <res-mult>N</res-mult>
+              <infix-form count="3">
+                <Token type="10" info="0">
+                  <text>&lt;Тип объекта&gt;</text>
+                  <i-value>0</i-value>
+                </Token>
+                <Token type="1" info="0">
+                  <text>=</text>
+                </Token>
+                <Token type="5" info="0">
+                  <text>Операция</text>
+                  <i-value>1075</i-value>
+                </Token>
+              </infix-form>
+              <postfix-form count="3">
+                <Token type="10" info="0">
+                  <text>&lt;Тип объекта&gt;</text>
+                  <i-value>0</i-value>
+                </Token>
+                <Token type="5" info="0">
+                  <text>Операция</text>
+                  <i-value>1075</i-value>
+                </Token>
+                <Token type="1" info="0">
+                  <text>=</text>
+                </Token>
+              </postfix-form>
+              <Used-Attrs count="1">
+                <Attr-Info>
+                  <attrID>-7</attrID>
+                  <objTypeID>-1</objTypeID>
+                  <Full-Attr>
+                    <aGUID>cad0002e-306c-11d8-b4e9-00304f19f545</aGUID>
+                    <oGUID />
+                  </Full-Attr>
+                  <Pair-Name>
+                    <attr-shortname />
+                    <attr-longname>Тип объекта</attr-longname>
+                    <objType-shortname />
+                    <objType-longname />
+                    <field-type>15</field-type>
+                    <multi>N</multi>
+                  </Pair-Name>
+                </Attr-Info>
+              </Used-Attrs>
+            </Formula>
+            <saveContext>N</saveContext>
+            <forAllIsps>N</forAllIsps>
+          </Mod-Parms>
+          <Op-Parms>
+            <Dups>N</Dups>
+            <InbuiltSort>N</InbuiltSort>
+            <useCurrentIsps>N</useCurrentIsps>
+            <useGlobal>0</useGlobal>
+            <saveGlobal>0</saveGlobal>
+            <AddThis>N</AddThis>
+            <NoSearch>Y</NoSearch>
+            <ConfigOptions>N</ConfigOptions>
+            <ShowHidden>0</ShowHidden>
+            <Formula>
+              <res-type>5</res-type>
+              <res-mult>N</res-mult>
+              <infix-form count="3">
+                <Token type="6" info="0">
+                  <text>pi</text>
+                  <f-value>3,14159265358979</f-value>
+                </Token>
+                <Token type="1" info="0">
+                  <text> = </text>
+                </Token>
+                <Token type="5" info="0">
+                  <text>3</text>
+                  <i-value>3</i-value>
+                </Token>
+              </infix-form>
+              <postfix-form count="3">
+                <Token type="6" info="0">
+                  <text>pi</text>
+                  <f-value>3,14159265358979</f-value>
+                </Token>
+                <Token type="5" info="0">
+                  <text>3</text>
+                  <i-value>3</i-value>
+                </Token>
+                <Token type="1" info="0">
+                  <text> = </text>
+                </Token>
+              </postfix-form>
+            </Formula>
+            <data-attrs num="1">
+              <Attr-Link>
+                <GUID>cad009e6-306c-11d8-b4e9-00304f19f545</GUID>
+                <Name>Номер объекта</Name>
+                <Link>Na</Link>
+              </Attr-Link>
+            </data-attrs>
+            <link-types num="1">
+              <GUID>1002</GUID>
+              <_GUID>cad0019f-306c-11d8-b4e9-00304f19f545</_GUID>
+            </link-types>
+            <ispWork>0</ispWork>
+            <objTypeForGlobal />
+          </Op-Parms>
+          <node label="Создание строки А" modTag="-1" opTag="20">
+            <Op-Parms>
+              <ID>VV3</ID>
+              <Name>VV3</Name>
+              <make-current>Y</make-current>
+              <fill-children>N</fill-children>
+              <byDefault>N</byDefault>
+              <avoidDup>N</avoidDup>
+              <curForever>N</curForever>
+              <Tag />
+            </Op-Parms>
+            <node label="Номер операции" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>N_ОП</ID>
+                <Name>Номер операции</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad009e6-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Номер объекта</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Операция" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>ОПЕР</ID>
+                <Name>Наименование операции</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad00020-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Наименование</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+          </node>
+          <node label="Для оборудования на операции" modTag="0" opTag="10">
+            <Mod-Parms>
+              <Formula>
+                <res-type>5</res-type>
+                <res-mult>N</res-mult>
+                <infix-form count="3">
+                  <Token type="10" info="0">
+                    <text>&lt;Тип объекта&gt;</text>
+                    <i-value>0</i-value>
+                  </Token>
+                  <Token type="1" info="0">
+                    <text>=</text>
+                  </Token>
+                  <Token type="5" info="0">
+                    <text>Оборудование базовое</text>
+                    <i-value>1026</i-value>
+                  </Token>
+                </infix-form>
+                <postfix-form count="3">
+                  <Token type="10" info="0">
+                    <text>&lt;Тип объекта&gt;</text>
+                    <i-value>0</i-value>
+                  </Token>
+                  <Token type="5" info="0">
+                    <text>Оборудование базовое</text>
+                    <i-value>1026</i-value>
+                  </Token>
+                  <Token type="1" info="0">
+                    <text>=</text>
+                  </Token>
+                </postfix-form>
+                <Used-Attrs count="1">
+                  <Attr-Info>
+                    <attrID>-7</attrID>
+                    <objTypeID>-1</objTypeID>
+                    <Full-Attr>
+                      <aGUID>cad0002e-306c-11d8-b4e9-00304f19f545</aGUID>
+                      <oGUID />
+                    </Full-Attr>
+                    <Pair-Name>
+                      <attr-shortname />
+                      <attr-longname>Тип объекта</attr-longname>
+                      <objType-shortname />
+                      <objType-longname />
+                      <field-type>15</field-type>
+                      <multi>N</multi>
+                    </Pair-Name>
+                  </Attr-Info>
+                </Used-Attrs>
+              </Formula>
+              <saveContext>N</saveContext>
+              <forAllIsps>N</forAllIsps>
+            </Mod-Parms>
+            <Op-Parms>
+              <Dups>N</Dups>
+              <InbuiltSort>N</InbuiltSort>
+              <useCurrentIsps>N</useCurrentIsps>
+              <useGlobal>0</useGlobal>
+              <saveGlobal>0</saveGlobal>
+              <AddThis>N</AddThis>
+              <NoSearch>Y</NoSearch>
+              <ConfigOptions>N</ConfigOptions>
+              <ShowHidden>0</ShowHidden>
+              <link-types num="1">
+                <GUID>1002</GUID>
+                <_GUID>cad0019f-306c-11d8-b4e9-00304f19f545</_GUID>
+              </link-types>
+              <ispWork>0</ispWork>
+              <objTypeForGlobal />
+            </Op-Parms>
+            <node label="" modTag="-1" opTag="20">
+              <Op-Parms>
+                <ID>VV4</ID>
+                <Name>VV4</Name>
+                <make-current>Y</make-current>
+                <fill-children>N</fill-children>
+                <byDefault>N</byDefault>
+                <avoidDup>N</avoidDup>
+                <curForever>N</curForever>
+                <Tag />
+              </Op-Parms>
+              <node label="" modTag="-1" opTag="21">
+                <Op-Parms>
+                  <ID>O2</ID>
+                  <Name>O2</Name>
+                </Op-Parms>
+              </node>
+              <node label="Создание строки Б" modTag="4" opTag="20">
+                <Mod-Parms>
+                  <Formula>
+                    <res-type>5</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="3">
+                      <Token type="4" info="14">
+                        <text>def(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>Обр..&lt;Наименование&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="1">
+                      <Token type="4" info="14">
+                        <text>def(Обр..&lt;Наименование&gt;)</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="1">
+                      <Attr-Info>
+                        <attrID>10</attrID>
+                        <objTypeID>1118</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad00020-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00177-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Наименование</attr-longname>
+                          <objType-shortname>Обр.</objType-shortname>
+                          <objType-longname>Оборудование</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <saveContext>N</saveContext>
+                  <forAllIsps>N</forAllIsps>
+                </Mod-Parms>
+                <Op-Parms>
+                  <ID>VV5</ID>
+                  <Name>VV5</Name>
+                  <make-current>Y</make-current>
+                  <fill-children>N</fill-children>
+                  <byDefault>N</byDefault>
+                  <avoidDup>N</avoidDup>
+                  <curForever>N</curForever>
+                  <Tag />
+                </Op-Parms>
+                <node label="Полное обозначение оборудования" modTag="-1" opTag="19">
+                  <Op-Parms>
+                    <ID>МОД</ID>
+                    <Name>Модель оборудования</Name>
+                    <Bold>N</Bold>
+                    <Italic>N</Italic>
+                    <Underline>N</Underline>
+                    <ActiveLink>N</ActiveLink>
+                    <LinkThisDoc>N</LinkThisDoc>
+                    <AuthFile>N</AuthFile>
+                    <Tag />
+                    <Attr-ObjType>
+                      <Attr-Link>
+                        <GUID>cad00020-306c-11d8-b4e9-00304f19f545</GUID>
+                        <Name>Наименование</Name>
+                      </Attr-Link>
+                      <Attr-Link>
+                        <GUID>cad00177-306c-11d8-b4e9-00304f19f545</GUID>
+                        <Name>Оборудование</Name>
+                      </Attr-Link>
+                    </Attr-ObjType>
+                    <Color>0</Color>
+                  </Op-Parms>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node label="Для переходов на операции" modTag="0" opTag="10">
+            <Mod-Parms>
+              <Formula>
+                <res-type>5</res-type>
+                <res-mult>N</res-mult>
+                <infix-form count="3">
+                  <Token type="10" info="0">
+                    <text>&lt;Тип объекта&gt;</text>
+                    <i-value>0</i-value>
+                  </Token>
+                  <Token type="1" info="0">
+                    <text>=</text>
+                  </Token>
+                  <Token type="5" info="0">
+                    <text>Переход</text>
+                    <i-value>1142</i-value>
+                  </Token>
+                </infix-form>
+                <postfix-form count="3">
+                  <Token type="10" info="0">
+                    <text>&lt;Тип объекта&gt;</text>
+                    <i-value>0</i-value>
+                  </Token>
+                  <Token type="5" info="0">
+                    <text>Переход</text>
+                    <i-value>1142</i-value>
+                  </Token>
+                  <Token type="1" info="0">
+                    <text>=</text>
+                  </Token>
+                </postfix-form>
+                <Used-Attrs count="1">
+                  <Attr-Info>
+                    <attrID>-7</attrID>
+                    <objTypeID>-1</objTypeID>
+                    <Full-Attr>
+                      <aGUID>cad0002e-306c-11d8-b4e9-00304f19f545</aGUID>
+                      <oGUID />
+                    </Full-Attr>
+                    <Pair-Name>
+                      <attr-shortname />
+                      <attr-longname>Тип объекта</attr-longname>
+                      <objType-shortname />
+                      <objType-longname />
+                      <field-type>15</field-type>
+                      <multi>N</multi>
+                    </Pair-Name>
+                  </Attr-Info>
+                </Used-Attrs>
+              </Formula>
+              <saveContext>N</saveContext>
+              <forAllIsps>N</forAllIsps>
+            </Mod-Parms>
+            <Op-Parms>
+              <Dups>N</Dups>
+              <InbuiltSort>N</InbuiltSort>
+              <useCurrentIsps>N</useCurrentIsps>
+              <useGlobal>0</useGlobal>
+              <saveGlobal>0</saveGlobal>
+              <AddThis>N</AddThis>
+              <NoSearch>Y</NoSearch>
+              <ConfigOptions>N</ConfigOptions>
+              <ShowHidden>0</ShowHidden>
+              <data-attrs num="1">
+                <Attr-Link>
+                  <GUID>cad00202-306c-11d8-b4e9-00304f19f545</GUID>
+                  <Name>SORT</Name>
+                  <Link>Ya</Link>
+                </Attr-Link>
+              </data-attrs>
+              <link-types num="1">
+                <GUID>1002</GUID>
+                <_GUID>cad0019f-306c-11d8-b4e9-00304f19f545</_GUID>
+              </link-types>
+              <ispWork>0</ispWork>
+              <objTypeForGlobal />
+            </Op-Parms>
+            <node label="Создание строки О" modTag="-1" opTag="20">
+              <Op-Parms>
+                <ID>VV7</ID>
+                <Name>VV7</Name>
+                <make-current>Y</make-current>
+                <fill-children>N</fill-children>
+                <byDefault>N</byDefault>
+                <avoidDup>N</avoidDup>
+                <curForever>N</curForever>
+                <Tag />
+              </Op-Parms>
+              <node label="Переход" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>Тепр</ID>
+                  <Name>Текст перехода</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad0001f-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Обозначение</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+            </node>
+            <node label="Для оснастки на переходе" modTag="0" opTag="10">
+              <Mod-Parms>
+                <Formula>
+                  <res-type>5</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="10" info="0">
+                      <text>&lt;Тип объекта&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> = </text>
+                    </Token>
+                    <Token type="5" info="0">
+                      <text>cad0017c-306c-11d8-b4e9-00304f19f545|10@Оснастка</text>
+                      <i-value>1231</i-value>
+                      <sel-parmTypes>10</sel-parmTypes>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="3">
+                    <Token type="10" info="0">
+                      <text>&lt;Тип объекта&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="5" info="0">
+                      <text>cad0017c-306c-11d8-b4e9-00304f19f545|10@Оснастка</text>
+                      <i-value>1231</i-value>
+                      <sel-parmTypes>10</sel-parmTypes>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> = </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>-7</attrID>
+                      <objTypeID>-1</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0002e-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID />
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Тип объекта</attr-longname>
+                        <objType-shortname />
+                        <objType-longname />
+                        <field-type>15</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <saveContext>N</saveContext>
+                <forAllIsps>N</forAllIsps>
+              </Mod-Parms>
+              <Op-Parms>
+                <Excerpt>
+                  <ID>2092</ID>
+                  <Name>Вся оснастка на переходе</Name>
+                </Excerpt>
+                <Dups>N</Dups>
+                <InbuiltSort>N</InbuiltSort>
+                <useCurrentIsps>N</useCurrentIsps>
+                <useGlobal>0</useGlobal>
+                <saveGlobal>0</saveGlobal>
+                <AddThis>N</AddThis>
+                <NoSearch>Y</NoSearch>
+                <ConfigOptions>N</ConfigOptions>
+                <ShowHidden>0</ShowHidden>
+                <link-types num="1">
+                  <GUID>1002</GUID>
+                  <_GUID>cad0019f-306c-11d8-b4e9-00304f19f545</_GUID>
+                </link-types>
+                <ispWork>0</ispWork>
+                <objTypeForGlobal />
+              </Op-Parms>
+              <node label="Создание строки Т" modTag="4" opTag="20">
+                <Mod-Parms>
+                  <Formula>
+                    <res-type>5</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="3">
+                      <Token type="4" info="14">
+                        <text>def(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>Осн..ОСН</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="1">
+                      <Token type="4" info="14">
+                        <text>def(Осн..ОСН)</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="1">
+                      <Attr-Info>
+                        <attrID>10104</attrID>
+                        <objTypeID>1231</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cae0cb0b-5c1c-42c9-bbc0-a48aebbf9b08</aGUID>
+                          <oGUID>cad0017c-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname>ОСН</attr-shortname>
+                          <attr-longname>Полное наименование ОСН</attr-longname>
+                          <objType-shortname>Осн.</objType-shortname>
+                          <objType-longname>Оснастка</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <saveContext>N</saveContext>
+                  <forAllIsps>N</forAllIsps>
+                </Mod-Parms>
+                <Op-Parms>
+                  <ID>VV8</ID>
+                  <Name>VV8</Name>
+                  <make-current>Y</make-current>
+                  <fill-children>N</fill-children>
+                  <byDefault>N</byDefault>
+                  <avoidDup>N</avoidDup>
+                  <curForever>N</curForever>
+                  <Tag />
+                </Op-Parms>
+                <node label="" modTag="-1" opTag="19">
+                  <Op-Parms>
+                    <ID>ОСН1</ID>
+                    <Name>Полное обозначение оснастки</Name>
+                    <Bold>N</Bold>
+                    <Italic>N</Italic>
+                    <Underline>N</Underline>
+                    <ActiveLink>N</ActiveLink>
+                    <LinkThisDoc>N</LinkThisDoc>
+                    <AuthFile>N</AuthFile>
+                    <Tag />
+                    <Attr-ObjType>
+                      <Attr-Link>
+                        <GUID>cae0cb0b-5c1c-42c9-bbc0-a48aebbf9b08</GUID>
+                        <Name>Полное наименование ОСН</Name>
+                      </Attr-Link>
+                      <Attr-Link>
+                        <GUID>cad0017c-306c-11d8-b4e9-00304f19f545</GUID>
+                        <Name>Оснастка</Name>
+                      </Attr-Link>
+                    </Attr-ObjType>
+                    <Color>0</Color>
+                  </Op-Parms>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node label="Создание пустой строки" modTag="-1" opTag="20">
+            <Op-Parms>
+              <ID>VV</ID>
+              <Name>Пустая строка</Name>
+              <make-current>Y</make-current>
+              <fill-children>N</fill-children>
+              <byDefault>N</byDefault>
+              <avoidDup>N</avoidDup>
+              <curForever>N</curForever>
+              <Tag />
+            </Op-Parms>
+          </node>
+        </node>
+        <node label="Заготовка" modTag="-1" opTag="16">
+          <Op-Parms />
+          <node label="Создание строки для материала" modTag="-1" opTag="20">
+            <Op-Parms>
+              <ID>VV2</ID>
+              <Name>VV2</Name>
+              <make-current>Y</make-current>
+              <fill-children>N</fill-children>
+              <byDefault>N</byDefault>
+              <avoidDup>N</avoidDup>
+              <curForever>N</curForever>
+              <Tag />
+            </Op-Parms>
+            <node label="Код заготовки" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>ВЗГ</ID>
+                <Name>Вид заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad005e3-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Сортамент</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="9">
+                      <text>СТР(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="1">
+                    <Token type="4" info="9">
+                      <text>СТР(ЗАГ.&lt;Материал&gt;)</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1181</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Материал</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="ЕВ " modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>5364</ID>
+                <Name />
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cae08c8a-a4e3-460b-ac04-2987dd3c465d</GUID>
+                    <Name>Количество деталей из заготовки</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="50">
+                      <text>ЕИЗМ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Норма расхода&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Норма расхода&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="50">
+                      <text>ЕИЗМ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1223</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad005de-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Норма расхода</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="ЕВ кг" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>5364</ID>
+                <Name />
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cae08c8a-a4e3-460b-ac04-2987dd3c465d</GUID>
+                    <Name>Количество деталей из заготовки</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="1">
+                    <Token type="7" info="0">
+                      <text>"кг"</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="1">
+                    <Token type="7" info="0">
+                      <text>"кг"</text>
+                    </Token>
+                  </postfix-form>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Количество деталей из заготовки" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>КДТ</ID>
+                <Name>Количество деталей из заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cae08c8a-a4e3-460b-ac04-2987dd3c465d</GUID>
+                    <Name>Количество деталей из заготовки</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Н. расх" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>НР</ID>
+                <Name>Норма расхода материала</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad005de-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Норма расхода</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Норма расхода&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Норма расхода&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1223</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad005de-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Норма расхода</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="КИМ либо авто либо из аттрибута" modTag="-1" opTag="17">
+              <Op-Parms>
+                <Formula>
+                  <res-type>5</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="4">
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                    <Token type="4" info="14">
+                      <text>def(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Коэффициент использования материала&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="4" info="14">
+                      <text>def(ЗАГ.&lt;Коэффициент использования материала&gt;)</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1224</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad009e3-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Коэффициент использования материала</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>3</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+              </Op-Parms>
+              <node label="КИМ АВТО" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>M02_Str1_КИМ</ID>
+                  <Name>Коэффициент использования материала</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad009e3-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Коэффициент использования материала</Name>
+                    </Attr-Link>
+                    <Attr-Link>
+                      <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Заготовка</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="19">
+                      <Token type="2" info="0">
+                        <text>(</text>
+                      </Token>
+                      <Token type="4" info="49">
+                        <text>ЗНАЧ(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> * </text>
+                      </Token>
+                      <Token type="4" info="83">
+                        <text>ЕИ_Коэф(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> / </text>
+                      </Token>
+                      <Token type="2" info="0">
+                        <text>(</text>
+                      </Token>
+                      <Token type="4" info="49">
+                        <text>ЗНАЧ(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Масса заготовки (литьё/штамповка/поковка)&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> * </text>
+                      </Token>
+                      <Token type="4" info="83">
+                        <text>ЕИ_Коэф(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Масса заготовки (литьё/штамповка/поковка)&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="11">
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="4" info="49">
+                        <text>ЗНАЧ(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="4" info="83">
+                        <text>ЕИ_Коэф(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> * </text>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Масса заготовки (литьё/штамповка/поковка)&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="4" info="49">
+                        <text>ЗНАЧ(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Масса заготовки (литьё/штамповка/поковка)&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="4" info="83">
+                        <text>ЕИ_Коэф(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> * </text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> / </text>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="2">
+                      <Attr-Info>
+                        <attrID>17723</attrID>
+                        <objTypeID>1090</objTypeID>
+                        <Full-Attr>
+                          <aGUID>088870f3-7273-4670-9346-b5b51c535735</aGUID>
+                          <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Масса заготовки (литьё/штамповка/поковка)</attr-longname>
+                          <objType-shortname>ЗАГ</objType-shortname>
+                          <objType-longname>Заготовка</objType-longname>
+                          <field-type>13</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1000</attrID>
+                        <objTypeID>1017</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad00275-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00268-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Масса</attr-longname>
+                          <objType-shortname />
+                          <objType-longname>Изделия</objType-longname>
+                          <field-type>13</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+              <node label="КИМ" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>M02_Str1_КИМ</ID>
+                  <Name>Коэффициент использования материала</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad009e3-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Коэффициент использования материала</Name>
+                    </Attr-Link>
+                    <Attr-Link>
+                      <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Заготовка</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+            </node>
+            <node label="ЕН" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>ЕН</ID>
+                <Name>Единица нормирования</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad01467-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Единица нормирования</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="1">
+                    <Token type="10" info="0">
+                      <text>ЗАГ.ЕН</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="1">
+                    <Token type="10" info="0">
+                      <text>ЗАГ.ЕН</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>4579</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad01467-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname>ЕН</attr-shortname>
+                        <attr-longname>Единица нормирования</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>2</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Масса из массы изделия" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>МАС</ID>
+                <Name>Масса</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad00275-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Масса</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="0">
+                      <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1000</attrID>
+                      <objTypeID>1017</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00275-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad00268-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Масса</attr-longname>
+                        <objType-shortname />
+                        <objType-longname>Изделия</objType-longname>
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Размеры заготовки неопр" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>РАЗМ</ID>
+                <Name>Размеры заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad005df-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Размеры заготовки</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="11">
+                    <Token type="4" info="9">
+                      <text>СТР(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="1">
+                      <text>-&gt;</text>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>Баз.Мт..&lt;Класс&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="7" info="0">
+                      <text>" "</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="1">
+                      <text>-&gt;</text>
+                    </Token>
+                    <Token type="10" info="2">
+                      <text>Баз.Мт..&lt;Размеры и параметры&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="7">
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>47802</i-value>
+                    </Token>
+                    <Token type="4" info="9">
+                      <text>СТР(Баз.Мт..&lt;Класс&gt;)</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="7" info="0">
+                      <text>" "</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>47802</i-value>
+                    </Token>
+                    <Token type="10" info="2">
+                      <text>Баз.Мт..&lt;Размеры и параметры&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="3">
+                    <Attr-Info>
+                      <attrID>1098</attrID>
+                      <objTypeID>1021</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad008d8-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad00170-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Класс</attr-longname>
+                        <objType-shortname>Баз.Мт.</objType-shortname>
+                        <objType-longname>Материал базовый</objType-longname>
+                        <field-type>1</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>1181</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Материал</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>1102</attrID>
+                      <objTypeID>1021</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00211-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad00170-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Размеры и параметры</attr-longname>
+                        <objType-shortname>Баз.Мт.</objType-shortname>
+                        <objType-longname>Материал базовый</objType-longname>
+                        <field-type>1</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Вид заготовки неопр" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>ВЗГ</ID>
+                <Name>Вид заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Attr-ObjType>
+                  <Attr-Link>
+                    <GUID>cad005e3-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Сортамент</Name>
+                  </Attr-Link>
+                  <Attr-Link>
+                    <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                    <Name>Заготовка</Name>
+                  </Attr-Link>
+                </Attr-ObjType>
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="1">
+                      <text>-&gt;</text>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>Баз.Мт..STD</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>47802</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>Баз.Мт..STD</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="2">
+                    <Attr-Info>
+                      <attrID>1097</attrID>
+                      <objTypeID>1021</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad003de-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad00170-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname>STD</attr-shortname>
+                        <attr-longname>ГОСТ</attr-longname>
+                        <objType-shortname>Баз.Мт.</objType-shortname>
+                        <objType-longname>Материал базовый</objType-longname>
+                        <field-type>1</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>1181</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Материал</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Масса заготовки в заг" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>МЗГ</ID>
+                <Name>Масса заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="3">
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Масса заготовки (литьё/штамповка/поковка)&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Масса заготовки (литьё/штамповка/поковка)&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>17723</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>088870f3-7273-4670-9346-b5b51c535735</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Масса заготовки (литьё/штамповка/поковка)</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="[не работает] Если НЕ неопределенный материал (экспорт с Компаса)" modTag="-1" opTag="16">
+              <Op-Parms>
+                <Formula>
+                  <res-type>5</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="10">
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                    <Token type="4" info="14">
+                      <text>def(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="1">
+                      <text>-&gt;</text>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>&lt;Материалы неопределённые&gt;.&lt;Заголовок объекта&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text>  И  </text>
+                    </Token>
+                    <Token type="6" info="0">
+                      <text>pi</text>
+                      <f-value>3,14159265358979</f-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> = </text>
+                    </Token>
+                    <Token type="5" info="0">
+                      <text>3</text>
+                      <i-value>3</i-value>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="7">
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>47802</i-value>
+                    </Token>
+                    <Token type="4" info="14">
+                      <text>def(&lt;Материалы неопределённые&gt;.&lt;Заголовок объекта&gt;)</text>
+                      <i-value>1</i-value>
+                    </Token>
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                    <Token type="11" info="1">
+                      <text>jNOT_7</text>
+                      <i-value>7</i-value>
+                    </Token>
+                    <Token type="6" info="0">
+                      <text>pi</text>
+                      <f-value>3,14159265358979</f-value>
+                    </Token>
+                    <Token type="5" info="0">
+                      <text>3</text>
+                      <i-value>3</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> = </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="2">
+                    <Attr-Info>
+                      <attrID>1181</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Материал</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>-50</attrID>
+                      <objTypeID>1125</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00047-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad0081d-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Заголовок объекта</attr-longname>
+                        <objType-shortname />
+                        <objType-longname>Материалы неопределённые</objType-longname>
+                        <field-type>15</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+              </Op-Parms>
+              <node label="Вид заготовки" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>ВЗГ</ID>
+                  <Name>Вид заготовки</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad005e3-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Сортамент</Name>
+                    </Attr-Link>
+                    <Attr-Link>
+                      <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Заготовка</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="3">
+                      <Token type="4" info="9">
+                        <text>СТР(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Материал&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="1">
+                      <Token type="4" info="9">
+                        <text>СТР(ЗАГ.&lt;Материал&gt;)</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="1">
+                      <Attr-Info>
+                        <attrID>1181</attrID>
+                        <objTypeID>1090</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Материал</attr-longname>
+                          <objType-shortname>ЗАГ</objType-shortname>
+                          <objType-longname>Заготовка</objType-longname>
+                          <field-type>8</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+              <node label="Размеры заготовки" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>РАЗМ</ID>
+                  <Name>Размеры заготовки</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad005df-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Размеры заготовки</Name>
+                    </Attr-Link>
+                    <Attr-Link>
+                      <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Заготовка</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="9">
+                      <Token type="4" info="9">
+                        <text>СТР(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Вид заготовки&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="7" info="0">
+                        <text>" "</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="4" info="9">
+                        <text>СТР(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="1">
+                        <text>ЗАГ.&lt;Размеры заготовки&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="5">
+                      <Token type="4" info="9">
+                        <text>СТР(ЗАГ.&lt;Вид заготовки&gt;)</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="7" info="0">
+                        <text>" "</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="4" info="9">
+                        <text>СТР(ЗАГ.&lt;Размеры заготовки&gt;)</text>
+                        <i-value>1</i-value>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="2">
+                      <Attr-Info>
+                        <attrID>1221</attrID>
+                        <objTypeID>1090</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad005d0-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Вид заготовки</attr-longname>
+                          <objType-shortname>ЗАГ</objType-shortname>
+                          <objType-longname>Заготовка</objType-longname>
+                          <field-type>8</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1222</attrID>
+                        <objTypeID>1090</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad005df-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Размеры заготовки</attr-longname>
+                          <objType-shortname>ЗАГ</objType-shortname>
+                          <objType-longname>Заготовка</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+            </node>
+            <node label="Масса заготовки условный расчёт" modTag="-1" opTag="19">
+              <Op-Parms>
+                <ID>МЗГ</ID>
+                <Name>Масса заготовки</Name>
+                <Bold>N</Bold>
+                <Italic>N</Italic>
+                <Underline>N</Underline>
+                <ActiveLink>N</ActiveLink>
+                <LinkThisDoc>N</LinkThisDoc>
+                <AuthFile>N</AuthFile>
+                <Tag />
+                <Formula>
+                  <res-type>3</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="13">
+                    <Token type="4" info="23">
+                      <text>rnde(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Сортамент&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="1">
+                      <text>-&gt;</text>
+                    </Token>
+                    <Token type="10" info="2">
+                      <text>Мт..&lt;Масса 1 м&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                    <Token type="12" info="0">
+                      <text>, </text>
+                    </Token>
+                    <Token type="5" info="0">
+                      <text>2</text>
+                      <i-value>2</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="8">
+                    <Token type="10" info="0">
+                      <text>&lt;Изделия&gt;.&lt;Масса&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="1">
+                      <text>ЗАГ.&lt;Сортамент&gt;</text>
+                      <i-value>47802</i-value>
+                    </Token>
+                    <Token type="10" info="2">
+                      <text>Мт..&lt;Масса 1 м&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="4" info="49">
+                      <text>ЗНАЧ(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="1" info="0">
+                      <text> + </text>
+                    </Token>
+                    <Token type="5" info="0">
+                      <text>2</text>
+                      <i-value>2</i-value>
+                    </Token>
+                    <Token type="4" info="23">
+                      <text>rnde(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="3">
+                    <Attr-Info>
+                      <attrID>1000</attrID>
+                      <objTypeID>1017</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad00275-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad00268-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Масса</attr-longname>
+                        <objType-shortname />
+                        <objType-longname>Изделия</objType-longname>
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>1219</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad005e3-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Сортамент</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                    <Attr-Info>
+                      <attrID>13166</attrID>
+                      <objTypeID>1128</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cae0c0d5-517c-4e99-b36f-a08b3de4b329</aGUID>
+                        <oGUID>cad00172-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Масса 1 м</attr-longname>
+                        <objType-shortname>Мт.</objType-shortname>
+                        <objType-longname>Материалы</objType-longname>
+                        <field-type>13</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+                <Color>0</Color>
+              </Op-Parms>
+            </node>
+            <node label="Если нет заготовки, подсасываем материал с изделия" modTag="-1" opTag="16">
+              <Op-Parms>
+                <Formula>
+                  <res-type>5</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="4">
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                    <Token type="4" info="14">
+                      <text>def(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="4" info="14">
+                      <text>def(ЗАГ.&lt;Материал&gt;)</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1181</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Материал</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+              </Op-Parms>
+              <node label="Размеры заготовки неопр" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>РАЗМ</ID>
+                  <Name>Размеры заготовки</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad005df-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Размеры заготовки</Name>
+                    </Attr-Link>
+                    <Attr-Link>
+                      <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Заготовка</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="3">
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Материал&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="0" info="1">
+                        <text>-&gt;</text>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>Баз.Мт..&lt;Класс&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="2">
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Материал&gt;</text>
+                        <i-value>47802</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>Баз.Мт..&lt;Класс&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="2">
+                      <Attr-Info>
+                        <attrID>1098</attrID>
+                        <objTypeID>1021</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad008d8-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00170-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Класс</attr-longname>
+                          <objType-shortname>Баз.Мт.</objType-shortname>
+                          <objType-longname>Материал базовый</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1181</attrID>
+                        <objTypeID>1017</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00268-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Материал</attr-longname>
+                          <objType-shortname />
+                          <objType-longname>Изделия</objType-longname>
+                          <field-type>8</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+              <node label="Вид заготовки неопр" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>ВЗГ</ID>
+                  <Name>Вид заготовки</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Attr-ObjType>
+                    <Attr-Link>
+                      <GUID>cad005e3-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Сортамент</Name>
+                    </Attr-Link>
+                    <Attr-Link>
+                      <GUID>cad001da-306c-11d8-b4e9-00304f19f545</GUID>
+                      <Name>Заготовка</Name>
+                    </Attr-Link>
+                  </Attr-ObjType>
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="3">
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Материал&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="0" info="1">
+                        <text>-&gt;</text>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>Баз.Мт..STD</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="2">
+                      <Token type="10" info="1">
+                        <text>&lt;Изделия&gt;.&lt;Материал&gt;</text>
+                        <i-value>47802</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>Баз.Мт..STD</text>
+                        <i-value>0</i-value>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="2">
+                      <Attr-Info>
+                        <attrID>1097</attrID>
+                        <objTypeID>1021</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad003de-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00170-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname>STD</attr-shortname>
+                          <attr-longname>ГОСТ</attr-longname>
+                          <objType-shortname>Баз.Мт.</objType-shortname>
+                          <objType-longname>Материал базовый</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1181</attrID>
+                        <objTypeID>1017</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00268-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Материал</attr-longname>
+                          <objType-shortname />
+                          <objType-longname>Изделия</objType-longname>
+                          <field-type>8</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+            </node>
+            <node label="Из сортамента" modTag="-1" opTag="16">
+              <Op-Parms>
+                <Formula>
+                  <res-type>5</res-type>
+                  <res-mult>N</res-mult>
+                  <infix-form count="4">
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                    <Token type="4" info="14">
+                      <text>def(</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="10" info="0">
+                      <text>ЗАГ.&lt;Материал&gt;</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="3" info="0">
+                      <text>)</text>
+                    </Token>
+                  </infix-form>
+                  <postfix-form count="2">
+                    <Token type="4" info="14">
+                      <text>def(ЗАГ.&lt;Материал&gt;)</text>
+                      <i-value>0</i-value>
+                    </Token>
+                    <Token type="0" info="0">
+                      <text>НЕ </text>
+                    </Token>
+                  </postfix-form>
+                  <Used-Attrs count="1">
+                    <Attr-Info>
+                      <attrID>1181</attrID>
+                      <objTypeID>1090</objTypeID>
+                      <Full-Attr>
+                        <aGUID>cad0038c-306c-11d8-b4e9-00304f19f545</aGUID>
+                        <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                      </Full-Attr>
+                      <Pair-Name>
+                        <attr-shortname />
+                        <attr-longname>Материал</attr-longname>
+                        <objType-shortname>ЗАГ</objType-shortname>
+                        <objType-longname>Заготовка</objType-longname>
+                        <field-type>8</field-type>
+                        <multi>N</multi>
+                      </Pair-Name>
+                    </Attr-Info>
+                  </Used-Attrs>
+                </Formula>
+              </Op-Parms>
+              <node label="Из сортамента" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>ВЗГ</ID>
+                  <Name>Вид заготовки</Name>
+                  <Font />
+                  <FontSize>9</FontSize>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="5">
+                      <Token type="4" info="9">
+                        <text>СТР(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="0" info="1">
+                        <text>-&gt;</text>
+                      </Token>
+                      <Token type="10" info="1">
+                        <text>Мт..STD</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="2">
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>47802</i-value>
+                      </Token>
+                      <Token type="4" info="9">
+                        <text>СТР(Мт..STD)</text>
+                        <i-value>1</i-value>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="2">
+                      <Attr-Info>
+                        <attrID>1219</attrID>
+                        <objTypeID>1090</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad005e3-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Сортамент</attr-longname>
+                          <objType-shortname>ЗАГ</objType-shortname>
+                          <objType-longname>Заготовка</objType-longname>
+                          <field-type>8</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1097</attrID>
+                        <objTypeID>1128</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad003de-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00172-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname>STD</attr-shortname>
+                          <attr-longname>ГОСТ</attr-longname>
+                          <objType-shortname>Мт.</objType-shortname>
+                          <objType-longname>Материалы</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+              <node label="Из сортамента размеры" modTag="-1" opTag="19">
+                <Op-Parms>
+                  <ID>РАЗМ</ID>
+                  <Name>Размеры заготовки</Name>
+                  <Bold>N</Bold>
+                  <Italic>N</Italic>
+                  <Underline>N</Underline>
+                  <ActiveLink>N</ActiveLink>
+                  <LinkThisDoc>N</LinkThisDoc>
+                  <AuthFile>N</AuthFile>
+                  <Tag />
+                  <Formula>
+                    <res-type>3</res-type>
+                    <res-mult>N</res-mult>
+                    <infix-form count="21">
+                      <Token type="4" info="9">
+                        <text>СТР(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="0" info="1">
+                        <text>-&gt;</text>
+                      </Token>
+                      <Token type="10" info="1">
+                        <text>Мт..&lt;Класс&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="7" info="0">
+                        <text>" "</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="4" info="49">
+                        <text>ЗНАЧ(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="0" info="1">
+                        <text>-&gt;</text>
+                      </Token>
+                      <Token type="10" info="3">
+                        <text>Мт..ТЗГ</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="7" info="0">
+                        <text>" "</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="4" info="9">
+                        <text>СТР(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="0" info="1">
+                        <text>-&gt;</text>
+                      </Token>
+                      <Token type="10" info="2">
+                        <text>Мт..&lt;Размеры и параметры&gt;</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="3" info="0">
+                        <text>)</text>
+                      </Token>
+                    </infix-form>
+                    <postfix-form count="13">
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>47802</i-value>
+                      </Token>
+                      <Token type="4" info="9">
+                        <text>СТР(Мт..&lt;Класс&gt;)</text>
+                        <i-value>1</i-value>
+                      </Token>
+                      <Token type="7" info="0">
+                        <text>" "</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>47802</i-value>
+                      </Token>
+                      <Token type="10" info="3">
+                        <text>Мт..ТЗГ</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="4" info="49">
+                        <text>ЗНАЧ(</text>
+                        <i-value>0</i-value>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="7" info="0">
+                        <text>" "</text>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                      <Token type="10" info="0">
+                        <text>ЗАГ.&lt;Сортамент&gt;</text>
+                        <i-value>47802</i-value>
+                      </Token>
+                      <Token type="4" info="9">
+                        <text>СТР(Мт..&lt;Размеры и параметры&gt;)</text>
+                        <i-value>2</i-value>
+                      </Token>
+                      <Token type="1" info="0">
+                        <text> + </text>
+                      </Token>
+                    </postfix-form>
+                    <Used-Attrs count="4">
+                      <Attr-Info>
+                        <attrID>1219</attrID>
+                        <objTypeID>1090</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad005e3-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad001da-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Сортамент</attr-longname>
+                          <objType-shortname>ЗАГ</objType-shortname>
+                          <objType-longname>Заготовка</objType-longname>
+                          <field-type>8</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1098</attrID>
+                        <objTypeID>1128</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad008d8-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00172-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Класс</attr-longname>
+                          <objType-shortname>Мт.</objType-shortname>
+                          <objType-longname>Материалы</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>1102</attrID>
+                        <objTypeID>1128</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cad00211-306c-11d8-b4e9-00304f19f545</aGUID>
+                          <oGUID>cad00172-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname />
+                          <attr-longname>Размеры и параметры</attr-longname>
+                          <objType-shortname>Мт.</objType-shortname>
+                          <objType-longname>Материалы</objType-longname>
+                          <field-type>1</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                      <Attr-Info>
+                        <attrID>15855</attrID>
+                        <objTypeID>1128</objTypeID>
+                        <Full-Attr>
+                          <aGUID>cae0cb5b-265a-47b3-8e3e-99a284df3b21</aGUID>
+                          <oGUID>cad00172-306c-11d8-b4e9-00304f19f545</oGUID>
+                        </Full-Attr>
+                        <Pair-Name>
+                          <attr-shortname>ТЗГ</attr-shortname>
+                          <attr-longname>Толщина ^Т^З^Г</attr-longname>
+                          <objType-shortname>Мт.</objType-shortname>
+                          <objType-longname>Материалы</objType-longname>
+                          <field-type>13</field-type>
+                          <multi>N</multi>
+                        </Pair-Name>
+                      </Attr-Info>
+                    </Used-Attrs>
+                  </Formula>
+                  <Color>0</Color>
+                </Op-Parms>
+              </node>
+            </node>
+          </node>
+          <node label="Создание пустой строки" modTag="-1" opTag="20">
+            <Op-Parms>
+              <ID>VV</ID>
+              <Name>Пустая строка</Name>
+              <make-current>Y</make-current>
+              <fill-children>N</fill-children>
+              <byDefault>N</byDefault>
+              <avoidDup>N</avoidDup>
+              <curForever>N</curForever>
+              <Tag />
+            </Op-Parms>
+          </node>
+        </node>
+      </node>
+    </node>
+  </ExpScript>
+</WholeScript>
