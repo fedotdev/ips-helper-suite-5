@@ -1,0 +1,11 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "ips": {
+      "type": "local",
+      "command": ["python", "-m", "ips_mcp.server"],
+      "enabled": true,
+      "timeout": 20000
+    }
+  }
+}
