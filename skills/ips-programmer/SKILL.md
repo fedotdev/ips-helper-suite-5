@@ -94,6 +94,8 @@ metadata:
 
 ### Доступные инструменты
 
+Для типов и атрибутов конкретной базы используйте `ips_get_object_type` и `ips_get_attribute_type`, а не ответы по памяти.
+
 - `ips_get_current_user` — информация о текущем пользователе
 - `ips_get_object`, `ips_get_object_attributes` — чтение объектов и атрибутов
 - `ips_get_composition*` — состав изделия (плоский, отфильтрованный, дерево)
