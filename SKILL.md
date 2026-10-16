@@ -89,13 +89,13 @@ metadata:
 
 ## Приоритет источников
 
-1. **manuals/** — руководства IPS (пользователя, конструктора, администратора, программиста и др.), транскрипты видеоуроков — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\lessons\` (GMT*.txt, индекс по дням — `README.md` там же), стандарты ЕСТД/ЕСКД в `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\standarts\` (23 ГОСТа)
+1. **manuals/** — руководства IPS (пользователя, конструктора, администратора, программиста и др.), транскрипты видеоуроков — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\lessons\` (GMT*.txt, индекс по дням — `README.md` там же), стандарты ЕСТД/ЕСКД в `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\standarts\` (24 текста: `ESTD\` — 23, `ESKD\` — 1; индексы — `README.md`)
 2. **references/** — проверенные примеры и разборы прошлых переписок. Подпапки:
    - `references/from-perplexity/` — разборы из Perplexity (изначальный вариант агента): хорошие и плохие кейсы помощи, уточнения по ГОСТ, примеры ответов;
    - `references/script-workflow/` — анализы бесед по разработке под задачи IPS (например, инструкция по скриптам Workflow-действия «Сценарий» — `README.md`);
    - `references/from-helpdesk/` — Q&A из переписки с техподдержкой ИНТЕРМЕХ (разобранный `Zimbra.mhtml`, по заявкам `RE-XXXXX`, индекс — `README.md`). Скриншоты и вложения — только в исходном `Zimbra.mhtml`.
    Используйте как проверенные примеры
-3. ГОСТы — тексты из `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\standarts\`, актуальная редакция с указанием источника
+3. ГОСТы — тексты из `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\standarts\` (индекс и сверка с реестром действующих НД — `README.md` там же), актуальная редакция с указанием источника
 4. Общие знания об IPS — в последнюю очередь с пометкой
 
 ### Структура файлов
