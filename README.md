@@ -50,7 +50,11 @@ ips-helper-suite-5/
 ├── AGENTS.md                 # Активация и маршрутизация для агентов
 ├── discovery.json            # Метаданные для marketplace
 ├── manuals/                  # Руководства IPS, транскрипты, примеры скриптов
+│   └── lessons/              # Транскрипты видеоуроков GMT*.txt + README-индекс
 ├── references/               # Проверенные переписки, примеры ответов по ГОСТ
+│   ├── from-perplexity/      # Разборы из Perplexity: хорошие/плохие кейсы помощи
+│   ├── script-workflow/      # Анализы бесед по разработке (скрипты Workflow и др.)
+│   └── from-helpdesk/        # Q&A техподдержки ИНТЕРМЕХ по заявкам RE-XXXXX
 ├── shared/                   # Общие ресурсы
 └── skills/
     ├── ips-system-helper/    # Помощник по интерфейсу IPS
@@ -102,10 +106,12 @@ Read-only анализ live-данных ЕТП через IPS-MCP: маршру
 
 ## Источники
 
+Корень ресурсов (абсолютный, не зависит от места установки скиллов): `D:\parsing\IPS-Durdom-5\ips-helper-suite-5`.
+
 | Приоритет | Источник | Содержание |
 |-----------|----------|------------|
-| 1 | `manuals/` | Руководства IPS, транскрипты обучений, примеры скриптов |
-| 2 | `references/` | Проверенные переписки, уточнения по ГОСТ, примеры ответов |
+| 1 | `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\` | Руководства IPS, транскрипты обучений, примеры скриптов |
+| 2 | `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\references\` | Проверенные переписки, уточнения по ГОСТ, примеры ответов: `from-perplexity\` (разборы Perplexity), `script-workflow\` (разработка под задачи IPS), `from-helpdesk\` (Q&A техподдержки по заявкам RE-XXXXX, скриншоты — только в `Zimbra.mhtml`) |
 | 3 | ГОСТы | Актуальные редакции стандартов ЕСТД/ЕСКД |
 | 4 | Общие знания | Только с пометкой «не подтверждено документами» |
 
@@ -134,5 +140,5 @@ Read-only анализ live-данных ЕТП через IPS-MCP: маршру
 ## Связанные разделы
 
 - [Оригинальный системный промпт из проекта](original_system-prompt.md) — определение роли наставника
-- [Manuals](manuals/) — полная документация IPS (без фото)
-- [References](references/) — проверенные примеры ответов
+- `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\` — полная документация IPS (без фото)
+- `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\references\` — проверенные примеры ответов (`from-perplexity\`, `script-workflow\`, `from-helpdesk\` с индексом `README.md`)

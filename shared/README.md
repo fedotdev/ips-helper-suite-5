@@ -9,13 +9,13 @@ ips-helper-suite/
 │   ├── IPS. Руководство конструктора.md
 │   ├── IPS. Руководство администратора.md
 │   ├── IPS. Руководство программиста.md
-│   ├── GMT2025*.txt  # Транскрипты обучений
+│   ├── lessons/      # Транскрипты видеоуроков GMT*.txt + README-индекс
 │   └── ...
 ├── references/       # Проверенные переписки, примеры ответов
-│   ├── 0b2c219b-*.md
-│   ├── 1abb4f9e-*.md
-│   ├── 3645e894-*.md
-│   └── ...
+│   ├── from-perplexity/  # Разборы из Perplexity (хорошие/плохие кейсы помощи)
+│   ├── script-workflow/ # Анализы бесед по разработке (README.md — скрипты Workflow)
+│   ├── from-helpdesk/    # Q&A техподдержки ИНТЕРМЕХ по заявкам RE-XXXXX + README-индекс
+│   └── Zimbra.mhtml      # Исходник выгрузки from-helpdesk (там же скриншоты)
 ├── skills/
 │   ├── ips-system-helper/   # Помощник по интерфейсу
 │   ├── ips-programmer/      # Программист
@@ -25,9 +25,11 @@ ips-helper-suite/
 
 ## Использование
 
-- **manuals/** — основной источник информации. Содержит все руководства IPS и транскрипты обучений.
-- **references/** — проверенные примеры прошлых переписок. Используйте как ориентир для формата и содержания ответов.
-- Общие правила MCP: [`mcp.md`](mcp.md).
+Корень ресурсов (абсолютный, не зависит от места установки): `D:\parsing\IPS-Durdom-5\ips-helper-suite-5`.
+
+- **manuals/** — основной источник информации. Содержит все руководства IPS и транскрипты видеоуроков (`lessons\`, GMT*.txt, индекс — `lessons\README.md`); путь `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\`.
+- **references/** — проверенные примеры прошлых переписок. Используйте как ориентир для формата и содержания ответов; путь `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\references\`. Подпапки: `from-perplexity\` (разборы Perplexity), `script-workflow\` (разработка под задачи IPS), `from-helpdesk\` (Q&A техподдержки по заявкам RE-XXXXX, индекс — `README.md`; скриншоты — только в `Zimbra.mhtml`).
+- Общие правила MCP: `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\shared\mcp.md`.
 
 ## Проверочный чек-лист
 

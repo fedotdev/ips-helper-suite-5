@@ -5,7 +5,12 @@
       "type": "local",
       "command": ["python", "-m", "ips_mcp.server"],
       "enabled": true,
-      "timeout": 20000
+      "timeout": 20000,
+      "environment": {
+        "PYTHONPATH": "D:\\IPS\\IPS-MCP\\src",
+        "IPS_CONFIG": "D:\\IPS\\IPS-MCP\\config.json",
+        "IPS_AUDIT_LOG": "C:\\Users\\fedor\\AppData\\Local\\Temp\\opencode\\ips-mcp-audit.jsonl"
+      }
     }
   }
 }

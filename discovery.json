@@ -26,7 +26,9 @@
     "skill.md",
     "manuals/руководства IPS",
     "manuals/транскрипты обучений",
-    "references/проверенные переписки"
+    "references/from-perplexity (разборы Perplexity)",
+    "references/script-workflow (разработка под задачи IPS)",
+    "references/from-helpdesk (Q&A техподдержки RE-XXXXX)"
   ],
   "success_measure": "Пользователь получает точный ответ, основанный на документации IPS, с правильной маршрутизацией к нужному компоненту",
   "outcome": "Пользователи IPS получают помощь в работе с системой без необходимости знать код или конфигурацию",
@@ -82,7 +84,7 @@
     ],
     "data_sources": [
       "manuals/директория",
-      "references/проверенные переписки"
+      "references/from-perplexity, script-workflow, from-helpdesk"
     ],
     "required_capabilities": [
       "Доступ к документации IPS",
