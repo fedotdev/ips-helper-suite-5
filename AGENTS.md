@@ -48,7 +48,7 @@
 Корень ресурсов (абсолютный, не зависит от места установки): `D:\parsing\IPS-Durdom-5\ips-helper-suite-5`.
 
 Suite использует следующие документы:
-- Руководства IPS (пользователя, конструктора, администратора, программиста) — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\`
+- Руководства IPS (пользователя, конструктора, администратора, программиста, установки, сервера/AutoSetup, CADMECH Kompas, PDMBrowser) — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\`
 - Транскрипты видеоуроков (GMT*.txt) — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\lessons\` (индекс по дням — `README.md` там же)
 - ГОСТы ЕСТД/ЕСКД — тексты в `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\standarts\` (24 текста: `ESTD\` — 23, `ESKD\` — 1; индексы и сверка с реестрами — `README.md` в каждой подпапке)
 - Проверенные переписки — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\references\`:

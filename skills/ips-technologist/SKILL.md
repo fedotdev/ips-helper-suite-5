@@ -62,6 +62,11 @@ metadata:
 
 ## Доступный read-only MCP
 
+Роль: технолог работает под `IPS_ROLE_TECHNO_ID` (в этой базе `782041`, чтение).
+В начале сессии вызовите `ips_set_role` с `{"role": "techno"}`: роль общая на
+процесс MCP, после программиста могла остаться пишущая `prog`. Проверка —
+`ips_get_current_user` → `roleVersionId` равен `IPS_ROLE_TECHNO_ID`.
+
 Используйте базовые имена следующих операций MCP:
 
 - `ips_get_current_user`;

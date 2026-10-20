@@ -46,14 +46,14 @@ metadata:
 ## Приоритет источников
 
 1. Руководство программиста IPS (основное и модули расширения) + инструкция по IPS SDK (`D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\manual_IPS-SDK.md`, состав SDK и примеры — `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\IPS SDK\README.md`)
-2. Руководство администратора IPS
+2. Руководство администратора IPS + установка и развёртывание: `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\IPS. Установка.md`, `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\Setup&AutoSetup.md` (программа установки ПО «Интермех» и автообновления AutoSetup), `D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\Server.md` (требуемые права доступа к папкам на сервере)
 3. Руководство по экспорту-импорту XML файлов
 4. Руководство по миграции данных
 5. Руководство по импорту исходного архива предприятия
-6. Документация по CADMECH и интеграции с КОМПАС
+6. Документация по CADMECH и интеграции с КОМПАС (`D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\CADMECH Kompas.md`) и PDM Browser (`D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\Руководство пользователя PDMBrowser-IPS.md`)
 7. Руководство по работе с производственными ведомостями
 8. Примеры скриптов (`D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\script-examples\`) — рабочие примеры бизнес-логики и генерации документов
-9. `references/script-workflow/README.md` — инструкция по разработке скриптов Workflow-действия «Сценарий» (создание поручений, канцелярия, переменные шаблонов, резолв должностей) — обязательно при скриптах процессов
+9. `references/script-workflow/README.md` — инструкция по разработке скриптов Workflow-действия «Сценарий» (создание поручений, канцелярия, переменные шаблонов, резолв должностей) и §11 — чтение/правка скрипта-объекта через MCP/API — обязательно при скриптах процессов
 10. `references/from-helpdesk/` (индекс — `README.md`) — Q&A техподдержки ИНТЕРМЕХ; по скриптам/API особенно: `RE-91497` (скрипт генерации документов), `RE-93621` (скрипт аутентичных файлов), `RE-95133` (клиентский/серверный IPS API), `RE-94090` (поручения на ТД после согласования КД)
 11. Транскрипты видеоуроков (`D:\parsing\IPS-Durdom-5\ips-helper-suite-5\manuals\lessons\`, GMT*.txt, индекс по дням — `README.md` там же) — используйте смысл, не цитируйте
 12. UUID-файлы — только для контекста, не как источник истины
@@ -110,23 +110,191 @@ metadata:
 Для типов и атрибутов конкретной базы используйте `ips_get_object_type` и `ips_get_attribute_type`, а не ответы по памяти.
 
 - `ips_get_current_user` — информация о текущем пользователе
+- `ips_set_role` — переключить роль (`techno` / `prog`), см. ниже
 - `ips_get_object`, `ips_get_object_attributes` — чтение объектов и атрибутов
 - `ips_get_composition*` — состав изделия (плоский, отфильтрованный, дерево)
 - `ips_get_relation*` — связи объектов
 - `ips_get_object_type`, `ips_get_attribute_type`, `ips_get_relation_type`, `ips_get_lifecycle` — метаданные
 
+### Роль для записи
+
+Роли задаются в `config.json`: `IPS_ROLE_TECHNO_ID` (чтение) и `IPS_ROLE_PROG_ID`
+(запись). Программист работает под второй:
+
+1. В начале сессии вызовите `ips_set_role` с `{"role": "prog"}`; при необходимости
+   роль переключается в любой момент.
+2. Проверка: `ips_get_current_user` → `roleVersionId` равен `IPS_ROLE_PROG_ID`
+   (в этой базе `775358`, «Репликатор баз данных», `isAdmin: true`).
+3. Если `roleVersionId` другой — `checkOut` упадёт с «у сервисного аккаунта нет
+   прав на объект». Роль общая на процесс MCP: технолог возвращает `techno`.
+
+### Запись через MCP (осторожно)
+
+Запись включается `IPS_ENABLE_WRITE=true` и выполняется **только** парой
+preview → commit с разовым `request_id`:
+
+- `ips_prepare_update_attribute` → `ips_commit_update_attribute`
+- `ips_prepare_create_object` → `ips_commit_create_object`
+- `ips_prepare_create_relation` → `ips_commit_create_relation`
+- `ips_prepare_checkout_object` / `ips_commit_checkout_object`,
+  `ips_prepare_finish_checkout` / `ips_commit_finish_checkout`
+- `ips_prepare_delete_object` / `ips_commit_delete_object` — необратимо
+
+При неизвестном исходе (`unknown`/`partial`) не повторять вслепую — перечитать
+состояние read-only инструментами.
+
 ### Ограничения
 
-- **Только чтение** — MCP не выполняет операций записи, создания, удаления
 - Справочник имён (`gloss.db`) привязан к конкретной базе IPS
-- Права доступа определяются пользователем, под которым запущен MCP
-- Для операций записи используйте скрипты IPS на C#
+- Допустимые значения атрибутов — только `ips_get_attribute_type` (`possibleValues`),
+  в `gloss.db` их нет
+- Права определяются сервисным аккаунтом MCP и его ролью: отказ `checkOut` —
+  «у сервисного аккаунта нет прав на объект» → переключиться на роль `775358`
+- Массовые/транзакционные операции — скриптами C# в IPS
 
-### Что НЕ делать через MCP
+### Правка скрипта-объекта Workflow
 
-- Создание/изменение/удаление объектов → используйте скрипты C#
-- Массовые операции → Script Pad или бизнес-процессы
-- Операции, требующие транзакций → C# скрипты
+Скрипт действия «Сценарий» хранится в базе: тип `1889`, атрибут `1324`
+«Текст сценария». Пошаговый пайплайн (чтение, preview/commit, название поручения
+через `captionAttributeId`, ACL-блокеры, standalone-обход) —
+`references/script-workflow/README.md`, §11.
+
+### Список ДСЕ группового ТП (ГТП) и маршруты обработки
+
+Проверено на 9.0.4 (сборка `9.0.4.11310`). Ключевой факт: **«список ДСЕ» группового
+техпроцесса реализуется не самими деталями, а единичными техпроцессами (ЕТП)**. Прямых
+деталей (тип `1052`) в составе ГТП нет.
+
+Цепочка (все связи хранятся как состав, кроме последней):
+
+```
+ДСЕ (1052) --1002--> Маршрут обработки (1037) --1002--> Единичный ТП (1237)
+                                     ЕТП --1006--> ГТП (1270)
+```
+
+- Тип связи ГТП↔ЕТП — `1006` «Технологическая связь с элементом ГТП»
+  (`cad005b8-306c-11d8-b4e9-00304f19f545`). В составе ГТП у элемента `relationType = 1006`;
+  `defaultRelation` ГТП (`1002`) для этого **не** подходит.
+- Порядок операций для каждой детали:
+  1. создать МО (`1037`, caption-атрибут `9`, вид `"<обозначение> 1 МО"`) и ЕТП (`1237`,
+     caption `"<обозначение> ... ЕТП [<обозначение ГТП>]"`); после `POST /objects` обязателен
+     `POST /objects/{id}/commitCreation` — ответ create содержит `result.objectID`, commit —
+     `result.objectId` (положительный финальный id);
+  2. `POST /objects/{ДСЕ}/includeInComposition` c `[МО]` — ДСЕ→МО (1002);
+  3. `POST /objects/{МО}/includeInComposition` c `[ЕТП]` — МО→ЕТП (1002);
+  4. `POST /relations` `{relationType:1006, projVersionId:<wc>, partVersionId:<ЕТП objectID>}` —
+     ЕТП→ГТП.
+
+Особенности API (все подтверждены):
+
+- `includeInComposition` всегда создаёт связь `defaultRelation` родителя (`1002`) и работает
+  **без** checkout родителя — даже если ЖЦ детали (`«Выпущен»`) запрещает `checkOut`.
+  Прямой `POST /relations` узла 1002 требует checkout и потому не нужен.
+- Связь `1006` создаётся **только на взятой на редактирование версии ГТП**. После
+  `POST /objects/{ГТП_objectID}/checkOut` рабочая копия имеет **отрицательный id** (`-<objectID>`)
+  — его и надо передавать в `projVersionId`. Иначе ошибка «Для изменения объекта ... выполните
+  команду 'Взять на редактирование'». Завершать `POST /objects/{wc}/checkIn`.
+- В `CreateRelationDto` `projVersionId` = **objectID** родителя, `partVersionId` = **objectID**
+  ребёнка; в ответе `partID` — version-id ребёнка (поле `id`, не `objectID`).
+- Запись атрибута тоже идёт в рабочую копию: `POST /objects/{wc}/attributeValues`.
+- Дубликаты: атрибут `9` «Обозначение» у МО **уникален** — повторная генерация
+  `<обозначение> 1 МО` даёт 500 «неуникальное значение» (значит у детали уже есть МО, обычно из
+  другого ГТП); для второго ГТП нумеруйте `2 МО` и т.п.
+
+Чтобы МО отображался в дереве «Изделия» (а не только во вкладке «Состоит из»), у МО должен быть
+проставлен атрибут **`1298` «Маршрут обработки по умолчанию» = `"По умолчанию"`**
+(`ftString`, единственное `possibleValue`). Записывается через checkout→`attributeValues`→checkIn.
+
+Штатной REST-операции «добавить ДСЕ в список ГТП» нет: автоматическое создание МО/ЕТП при
+добавлении в клиенте — это клиентский сценарий, воспроизводимый только набором этих примитивов.
+
+### Создать новый ГТП по прототипу и наполнить списком ДСЕ
+
+Проверено end-to-end. Порядок для «сделать ГТП N по образцу существующего ГТП»:
+
+1. **Клон по прототипу** — `ips_prepare_create_object` с `prototype_id` = objectID образца
+   (`POST /core/api/objects/CreateByPrototype` + `commitCreation`). Коммит возвращает
+   `working_copy_id`, `object_id` и `related_object_ids`. По прототипу **копируются атрибуты и
+   состав** (например цехозаходы типа `1110` подтягиваются автоматически — отдельно создавать не
+   нужно). Появляется служебный атрибут `17917` «ссылка на прототип».
+2. **Поправить атрибуты** — `checkOut` нового ГТП → запись на рабочую копию
+   (`POST /objects/{wc}/attributeValues`). Для ГТП менять минимум:
+   - `9` Обозначение — `"РБФТ.<децимал> ГТП N"`;
+   - `14824` Номер комплекта ТД (`NКТД`) — `"РБФТ.<децимал>"`;
+   - `18054` Номер МК/КТП/КТТП (**уникален по типу**) — `"РБФТ.<код>.NNNNN"`;
+   - `18061` Номер ВТД/ВТП/ВТО — по аналогии;
+   - `10` Наименование (например «Гибка»).
+   Рабочую копию **не чекинить** до пункта 3 — связь `1006` делается на ней.
+3. **Добавить ДСЕ** — для каждой детали повторить пункт «Порядок операций» выше, передавая
+   `projVersionId = <wc нового ГТП>` (отрицательный) в связь `1006`. Атрибут `1298` на МО не
+   забыть. Затем `checkIn` рабочей копии ГТП.
+
+Атрибуты ГТП (тип `1270`) в этой базе: `1065` Вид производства, `1126`/`1127` Разработал/Проверил,
+`4579` Единица нормирования, `14819` Код организации, `18071` Ссылка на организацию,
+`18969` Нормоконтролёр, `18970` Степень детализации КТД. Состав ГТП = цехозаходы (`1110`) + ЕТП
+(`1237`, связь `1006`).
+
+## Декомпиляция клиента TP Designer (источник логики МО/ЕТП)
+
+Клиентский плагин оформлен в `Intermech.TechCard.Client.dll`, константы — в
+`Intermech.Interfaces.TechCard.dll` (`Intermech.Interfaces.TechCard.TechCardConsts`).
+Декомпилятор: .NET SDK 6 + `ilspycmd` 8.2.0.7535 (`C:\Users\fedor\.dotnet\tools\ilspycmd.exe`;
+версия 11.1.0 требует net10 и на net6 не встаёт). Вложенные типы — через `+`:
+`ilspycmd <dll> -t "Intermech.Interfaces.TechCard.TechCardConsts+ObjectTypes"`.
+`ProtectionKey` — рантайм-защита, декомпиляции не мешает.
+
+**Вне клиента плагин не вызвать.** `ProcRouteCommandProvider` требует `TechCardProtectionKey`
+(иначе `TechCard`-`ProtectionException`), а сервис живёт в процессе навигатора через
+`ApplicationServices.Container`/`SessionKeeper`. Декомпиляция даёт **знание**, а не точку входа:
+логика воспроизводится обычными серверными примитивами (create + relation + attr + autoselection).
+
+### Точные константы `TechCardConsts` (для воспроизведения через Web API)
+
+| Символ | GUID | Локальный ID |
+|---|---|---|
+| `ObjectTypes.ProcRoutingGUID` (МО) | `cad0016f-306c-11d8-b4e9-00304f19f545` | `1037` |
+| `ObjectTypes.ProcRoutingEntryGUID` (ЕТП/элемент маршрута) | `cadd9bbb-306c-11d8-b4e9-00304f19f545` | `1237` |
+| `ObjectTypes.TechProcGroupGUID` (ГТП) | `cad00186-306c-11d8-b4e9-00304f19f545` | `1270` |
+| `ObjectTypes.TechProcEdinGUID` (ЕТП) | `cad00187-306c-11d8-b4e9-00304f19f545` | — |
+| `RelTypes.TechRelationGuid` (=1002) | `cad0019f-306c-11d8-b4e9-00304f19f545` | `1002` |
+| `RelTypes.TechLinkGTPObjRelationGuid` (=1006) | `cad005b8-306c-11d8-b4e9-00304f19f545` | `1006` |
+| `RelTypes.TechRouteRelationGuid` (=1005) | `cad005b0-306c-11d8-b4e9-00304f19f545` | `1005` |
+| `AttributeTypes.ProcRouteDefaultAttrGuid` (1298 «По умолчанию») | `cad005b9-306c-11d8-b4e9-00304f19f545` | `1298` |
+| `AttributeTypes.ProductionObjectUIDAttrGuid` | `cadd9bcc-306c-11d8-b4e9-00304f19f545` | — |
+| `AttributeTypes.MemberOfExitAssemblyAttrGUID` | `cadd9bca-306c-11d8-b4e9-00304f19f545` | — |
+| `AttributeTypes.MemberOfAssemblyObjectAttrGUID` | `cadd9c2a-306c-11d8-b4e9-00304f19f545` | — |
+| `AttributeTypes.MemberOfAssemblyCopyAttrGUID` | `cadd9bc9-306c-11d8-b4e9-00304f19f545` | — |
+
+ID в рантайме получаются из GUID через `MetaDataHelper.GetObjectTypeID/GetRelationTypeID/
+GetAttributeTypeID` — в коде всегда сравнивайте по GUID, не по числам.
+
+### Логика `ProcRouteHelper` (маршрут обработки детали)
+
+- `GetDefaultProcRouteForArticles` / `...ForArticle` — для деталей ищет МО типа `ProcRoutingID`
+  по связи `TechRelationID` (1002). Если нет и `createIfNotFound = true`: создаёт МО,
+  классифицирует, ставит `ProcRouteDefaultAttrID` (=`1298` = `"По умолчанию"`), связывает
+  деталь→МО связью `TechRelationID`, `CommitCreation`.
+- Поиск МО: условие `ProcRouteDefaultAttrID NotEmpty` по подтипам `ObjectTypes.ProcRoutingID`,
+  затем `GetChildSostavData` по связи `TechRelationID`.
+
+### Логика `ProcRouteEntryHelper.CreateProcRouteEntry` (создание ЕТП/элемента маршрута)
+
+1. проверка применимости `MetaDataHelper.GetApplicability(деталь.ObjTypeID,
+   ProcRoutingEntryID, TechRelationID)`;
+2. создание объекта типа `ProcRoutingEntryID`;
+3. атрибуты: `MemberOfExitAssemblyAttrGuid`, `MemberOfAssemblyObjectAttrGuid`,
+   `ProductionObjectUIDAttrGuid` (последний читается с детали через
+   `GetObjectAttributeValueByGuid`);
+4. связь деталь→ЕТП типом `TechRelationID`; `CommitCreation`.
+
+### Классификация (`TechCardClientClassifyObjectHelper.ClassifyObject`)
+
+Тонкая обёртка. Реальная работа — в **серверном** `ITechCardClassifyObjectService`
+(`ServiceUtils.GetService<ITechCardClassifyObjectService>(session)`), при желании асинхронно
+через Expert-задачу. Через Web API напрямую не дергается — только имитация примитивами.
+
+Артефакты декомпиляции: `references/techcard-decompiled/` (`TechCardConsts.*`, `ProcRouteHelper`,
+`ProcRouteEntryHelper`, оба `ClassifyObject*`).
 
 ## Gotchas
 
@@ -137,3 +305,15 @@ metadata:
 - Импорт/экспорт XML требует точного соответствия формату IPS
 - При работе с КОМПАС: версия CADMECH должна соответствовать версии КОМПАС
 - MCP-сервер требует запущенный IPS Web API и корректной авторизации через переменные окружения
+- Ошибка «у сервисного аккаунта нет прав на объект» — это ACL, а не lifecycle:
+  вызвать `ips_set_role {"role": "prog"}` (роль `IPS_ROLE_PROG_ID`)
+- Имя объекта (`caption`) задаётся атрибутом из `captionAttributeId` типа (для
+  «Поручений» — атрибут 10 «Наименование»), а не свойством `res.Caption`
+- Список ДСЕ ГТП — это ЕТП, связанные связью `1006`, а не детали; связь `1006` и правки
+  атрибутов ГТП/МО выполняются **на рабочей копии** (отрицательный id после `checkOut`),
+  `includeInComposition` (1002) — без checkout
+- МО не виден в дереве «Изделия» без атрибута `1298` «Маршрут обработки по умолчанию» =
+  `"По умолчанию"`
+- «Создать по прототипу» (`CreateByPrototype`, `prototypeId` = objectID образца) копирует
+  атрибуты **и состав** — цехозаходы и пр. подтягиваются сами; созданный объект сразу в рабочей
+  копии (отрицательный id), чекинить после заполнения
