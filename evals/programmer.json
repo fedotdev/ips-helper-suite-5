@@ -1,0 +1,12 @@
+[
+  {"prompt":"Напиши C# скрипт IPS","expected_route":"ips-programmer","expected_tools":[],"note":"код"},
+  {"prompt":"Как получить тип объекта этой базы?","expected_route":"ips-programmer","expected_tools":["ips_get_object_type"],"note":"не отвечать по памяти"},
+  {"prompt":"Как получить метаданные атрибута?","expected_route":"ips-programmer","expected_tools":["ips_get_attribute_type"],"note":"конкретная база"},
+  {"prompt":"Как настроить тип объекта?","expected_route":"ips-programmer","expected_tools":["ips_get_object_type"],"note":"метаданные"},
+  {"prompt":"Как интегрировать CAD?","expected_route":"ips-programmer","expected_tools":[],"note":"API"},
+  {"prompt":"Как сделать SQL выборку?","expected_route":"ips-programmer","expected_tools":[],"note":"безопасность"},
+  {"prompt":"Как импортировать XML?","expected_route":"ips-programmer","expected_tools":[],"note":"формат IPS"},
+  {"prompt":"Покажи lifecycle базы","expected_route":"ips-programmer","expected_tools":["ips_get_lifecycle"],"note":"read-only"},
+  {"prompt":"Как настроить права?","expected_route":"ips-programmer","expected_tools":[],"note":"администратор"},
+  {"prompt":"Как читать состав через MCP?","expected_route":"ips-programmer","expected_tools":["ips_get_composition"],"note":"базовое имя инструмента"}
+]

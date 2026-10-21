@@ -1,0 +1,12 @@
+[
+  {"prompt":"Как найти объект?","expected_route":"ips-system-helper","expected_tools":[],"note":"интерфейс"},
+  {"prompt":"Как оформить операцию по ГОСТ?","expected_route":"ips-system-helper","expected_tools":[],"note":"ГОСТ"},
+  {"prompt":"Ошибка при сохранении","expected_route":"ips-system-helper","expected_tools":["ips_get_lifecycle"],"note":"сначала точный текст ошибки"},
+  {"prompt":"Как создать документ?","expected_route":"ips-system-helper","expected_tools":[],"note":"интерфейс"},
+  {"prompt":"Как заполнить штамп?","expected_route":"ips-system-helper","expected_tools":[],"note":"ЕСКД"},
+  {"prompt":"Как подписать документ?","expected_route":"ips-system-helper","expected_tools":[],"note":"жизненный цикл"},
+  {"prompt":"Не вижу атрибут","expected_route":"ips-system-helper","expected_tools":[],"note":"проверить права и конфигурацию"},
+  {"prompt":"Как отправить на согласование?","expected_route":"ips-system-helper","expected_tools":[],"note":"интерфейс"},
+  {"prompt":"Как проверить комплектность ТД?","expected_route":"ips-system-helper","expected_tools":[],"note":"ГОСТ"},
+  {"prompt":"Почему не проходит чекин?","expected_route":"ips-system-helper","expected_tools":["ips_get_lifecycle"],"note":"не заменять точный текст ошибки"}
+]

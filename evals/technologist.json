@@ -1,0 +1,14 @@
+[
+  {"prompt":"Покажи ЕТП по objectID и objectGUID","expected_route":"ips-technologist","expected_tools":["ips_get_current_user","ips_get_object","ips_get_object_attributes","ips_get_composition_tree"],"note":"read-only"},
+  {"prompt":"Что в ЕТП РБФТ.303569.903?","expected_route":"ips-technologist","expected_tools":[],"note":"попросить objectID/objectGUID, не угадывать"},
+  {"prompt":"Проверь маршрут и операции изделия","expected_route":"ips-technologist","expected_tools":["ips_get_composition","ips_get_relation"],"note":"live data"},
+  {"prompt":"MCP вернул 403","expected_route":"ips-technologist","expected_tools":[],"note":"стоп; нет прав"},
+  {"prompt":"MCP вернул 404","expected_route":"ips-technologist","expected_tools":[],"note":"стоп; объекта нет"},
+  {"prompt":"MCP вернул 401","expected_route":"ips-technologist","expected_tools":[],"note":"стоп; нет прав"},
+  {"prompt":"В ответе mojibake","expected_route":"ips-technologist","expected_tools":[],"note":"unknown, не восстанавливать"},
+  {"prompt":"Состав очень большой","expected_route":"ips-technologist","expected_tools":["ips_get_composition"],"note":"пагинация и промежуточный результат после 10 вызовов"},
+  {"prompt":"MCP недоступен","expected_route":"ips-technologist","expected_tools":[],"note":"сообщить текст ошибки и остановиться"},
+  {"prompt":"MCP вернул неизвестный 4xx, например 405","expected_route":"ips-technologist","expected_tools":[],"note":"сообщить точный код и текст ошибки, остановиться"},
+  {"prompt":"Превышен лимит 25 вызовов MCP","expected_route":"ips-technologist","expected_tools":[],"note":"промежуточный результат после 10 вызовов и остановка"},
+  {"prompt":"Сопоставь раскадровку с ЕТП","expected_route":"ips-technologist","expected_tools":["ips_get_composition_tree","ips_get_object_attributes"],"note":"match/missing/ambiguous"}
+]
