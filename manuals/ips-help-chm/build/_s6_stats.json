@@ -1,0 +1,1315 @@
+{
+  "backup2_files": 2300,
+  "deleted_files": 0,
+  "changed_backup2_files": 0,
+  "protected_source_files": 2294,
+  "changed_source_files": 0,
+  "hhc_topics": 2287,
+  "hhc_sections": 9,
+  "hhc_trimmed_names": 1,
+  "title_changed_topics": 0,
+  "path_changed_topics": 0,
+  "h1_changed_files": 0,
+  "body_changed_files": [],
+  "examples": 2,
+  "empty_sources_checked": 103,
+  "source_images_total": 299,
+  "banner_images_excluded": 103,
+  "navigation_images_excluded": 194,
+  "content_images": 2,
+  "illustration_only_ids": [
+    "3941",
+    "6780"
+  ],
+  "version_from_VERSION": "unknown",
+  "versions_before": {
+    "unknown": 2290
+  },
+  "versions_after": {
+    "unknown": 2290
+  },
+  "before": {
+    "files": 2290,
+    "topics": 2287,
+    "index_entries": 2287,
+    "with_path": 2290,
+    "with_parent_id": 2290,
+    "null_parent_files": 97,
+    "version_matches": 2290,
+    "h1_mismatch_files": 0,
+    "empty_files": 103,
+    "keywords": 9522,
+    "stop_keywords": 0,
+    "alt_remnants": 0,
+    "post": 0,
+    "escaped_stars": 121,
+    "star4_lines": 0,
+    "star4_occurrences": 0,
+    "odd_bold_lines": 0,
+    "separator_duplicates": 0,
+    "empty_topics": 103,
+    "null_parent_topics": 95,
+    "path_leaf_mismatch_topics": 0,
+    "split_topics": 3,
+    "split_mismatch_topics": 0,
+    "title_hhc_mismatch_topics": 0,
+    "path_hhc_mismatch_topics": 0,
+    "section_hhc_mismatch_topics": 0,
+    "parent_id_hhc_mismatch_topics": 0,
+    "index_nested": 2192,
+    "index_toc": 101,
+    "index_illustrations": 2,
+    "index_marked": 103,
+    "index_paths": 227,
+    "index_title_mismatches": 0,
+    "index_parent_mismatches": 0,
+    "index_path_mismatches": 0,
+    "index_mark_mismatches": 0
+  },
+  "after": {
+    "files": 2290,
+    "topics": 2287,
+    "index_entries": 2287,
+    "with_path": 2290,
+    "with_parent_id": 2290,
+    "null_parent_files": 97,
+    "version_matches": 2290,
+    "h1_mismatch_files": 0,
+    "empty_files": 103,
+    "keywords": 9522,
+    "stop_keywords": 0,
+    "alt_remnants": 0,
+    "post": 0,
+    "escaped_stars": 121,
+    "star4_lines": 0,
+    "star4_occurrences": 0,
+    "odd_bold_lines": 0,
+    "separator_duplicates": 0,
+    "empty_topics": 103,
+    "null_parent_topics": 95,
+    "path_leaf_mismatch_topics": 0,
+    "split_topics": 3,
+    "split_mismatch_topics": 0,
+    "title_hhc_mismatch_topics": 0,
+    "path_hhc_mismatch_topics": 0,
+    "section_hhc_mismatch_topics": 0,
+    "parent_id_hhc_mismatch_topics": 0,
+    "index_nested": 2192,
+    "index_toc": 101,
+    "index_illustrations": 2,
+    "index_marked": 103,
+    "index_paths": 227,
+    "index_title_mismatches": 0,
+    "index_parent_mismatches": 0,
+    "index_path_mismatches": 0,
+    "index_mark_mismatches": 0
+  },
+  "checks_passed": 30,
+  "checks_total": 30,
+  "checks": {
+    "title_hhc_mismatch_topics": true,
+    "path_hhc_mismatch_topics": true,
+    "section_hhc_mismatch_topics": true,
+    "parent_id_hhc_mismatch_topics": true,
+    "h1_mismatch_files": true,
+    "path_leaf_mismatch_topics": true,
+    "split_mismatch_topics": true,
+    "index_title_mismatches": true,
+    "index_parent_mismatches": true,
+    "index_path_mismatches": true,
+    "index_mark_mismatches": true,
+    "star4_lines": true,
+    "alt_remnants": true,
+    "separator_duplicates": true,
+    "stop_keywords": true,
+    "odd_bold_lines": true,
+    "no_files_deleted": true,
+    "backup_unchanged": true,
+    "sources_unchanged": true,
+    "unrelated_files_unchanged": true,
+    "body_content_preserved": true,
+    "other_frontmatter_preserved": true,
+    "same_topic_files": true,
+    "all_versions_from_VERSION": true,
+    "all_empty_topics_marked": true,
+    "6645_unmarked": true,
+    "index_covers_each_topic_once": true,
+    "index_links_to_canonical_files": true,
+    "root_lists_sections_only": true,
+    "empty_source_images_accounted": true
+  },
+  "empty_topics": [
+    {
+      "id": "3452",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Пользовательский интерфейс"
+    },
+    {
+      "id": "3465",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки отображения панелей окон"
+    },
+    {
+      "id": "3471",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки отображения панелей инструментов"
+    },
+    {
+      "id": "3473",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Навигация по системе"
+    },
+    {
+      "id": "3507",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Свойства объектов"
+    },
+    {
+      "id": "3563",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание архивов"
+    },
+    {
+      "id": "3565",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Удаление документов из архива"
+    },
+    {
+      "id": "3590",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки отображения объектов состава"
+    },
+    {
+      "id": "3604",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Добавление объектов в состав"
+    },
+    {
+      "id": "3605",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание объектов в составе"
+    },
+    {
+      "id": "3611",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Размещение элементов управления"
+    },
+    {
+      "id": "3637",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Контексты редактирования"
+    },
+    {
+      "id": "3690",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Выборки"
+    },
+    {
+      "id": "3713",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Классификаторы"
+    },
+    {
+      "id": "3731",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Поиск состава и применяемости объектов"
+    },
+    {
+      "id": "3740",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Версии объектов"
+    },
+    {
+      "id": "3746",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Электронный документооборот"
+    },
+    {
+      "id": "3749",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с почтой"
+    },
+    {
+      "id": "3755",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Рецензирование текстовой и графической документации в бизнес-процессе"
+    },
+    {
+      "id": "3762",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание извещений"
+    },
+    {
+      "id": "3822",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Безопасность"
+    },
+    {
+      "id": "3843",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Добавление атрибутов"
+    },
+    {
+      "id": "3850",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с записями таблицы"
+    },
+    {
+      "id": "3856",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Фильтры записей таблицы"
+    },
+    {
+      "id": "3894",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Взаимодействие с внешней почтой"
+    },
+    {
+      "id": "3933",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Описание редактора свойств материалов"
+    },
+    {
+      "id": "3934",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Редактирование раздела"
+    },
+    {
+      "id": "3941",
+      "images": 1,
+      "urls": [
+        "../images/98ca9b92b25b6dbbc64dfe448405a59b.png"
+      ],
+      "total_images": 4,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только иллюстрации)",
+      "title": "Настройки параметров IPS"
+    },
+    {
+      "id": "3947",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Виды отображения"
+    },
+    {
+      "id": "3948",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Задачи органайзера"
+    },
+    {
+      "id": "3972",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа технолога в IPS"
+    },
+    {
+      "id": "3976",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Единичный техпроцесс"
+    },
+    {
+      "id": "3982",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Групповой/типовой техпроцесс"
+    },
+    {
+      "id": "4000",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройка"
+    },
+    {
+      "id": "4006",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Фильтры Imbase"
+    },
+    {
+      "id": "4037",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Параметры задач и проектов"
+    },
+    {
+      "id": "4069",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с составами"
+    },
+    {
+      "id": "4091",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание спецификаций"
+    },
+    {
+      "id": "4095",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с записями спецификаций"
+    },
+    {
+      "id": "4133",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание перечней элементов"
+    },
+    {
+      "id": "4135",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с записями перечня элементов"
+    },
+    {
+      "id": "4171",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройка конструкторских ведомостей"
+    },
+    {
+      "id": "4254",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Редактирование листа регистрации изменений"
+    },
+    {
+      "id": "4274",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с файлами XML"
+    },
+    {
+      "id": "4281",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Конструкторские таблицы"
+    },
+    {
+      "id": "4285",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройка конструкторских таблиц"
+    },
+    {
+      "id": "4300",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с CAD-системами"
+    },
+    {
+      "id": "4341",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Поиск компонентов в сборке"
+    },
+    {
+      "id": "4358",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с CAD-системой КОМПАС-3D"
+    },
+    {
+      "id": "4463",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Администрирование базового модуля системы"
+    },
+    {
+      "id": "4464",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Общие настройки"
+    },
+    {
+      "id": "4473",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Отображение и сортировка составов"
+    },
+    {
+      "id": "4480",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки отображения составов для типов объектов"
+    },
+    {
+      "id": "4484",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки модулей расширения"
+    },
+    {
+      "id": "4533",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Файловые шкафы"
+    },
+    {
+      "id": "4538",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Содержимое файловых шкафов"
+    },
+    {
+      "id": "4551",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Единицы измерения для физических величин"
+    },
+    {
+      "id": "4627",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание элементов"
+    },
+    {
+      "id": "4631",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Действия над элементами шаблона"
+    },
+    {
+      "id": "4660",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание страниц"
+    },
+    {
+      "id": "4702",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Администрирование модулей расширения"
+    },
+    {
+      "id": "4733",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Связи"
+    },
+    {
+      "id": "4739",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Проектирование шаблонов процессов"
+    },
+    {
+      "id": "4805",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройка расчета параметров"
+    },
+    {
+      "id": "4840",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Служба хранения файлов и двоичных данных IPS Data Vault Service"
+    },
+    {
+      "id": "4857",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Страховое копирование и восстановление файловых шкафов DVS"
+    },
+    {
+      "id": "4867",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Автоматические уведомления"
+    },
+    {
+      "id": "4907",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Достоинства системы IPS"
+    },
+    {
+      "id": "5148",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Введение"
+    },
+    {
+      "id": "5200",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки в Конфигураторе базы данных"
+    },
+    {
+      "id": "5329",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Приложение 1 Типы данных"
+    },
+    {
+      "id": "5333",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Приложение 3 Описание конфигурационных файлов IPS"
+    },
+    {
+      "id": "5347",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Приложение 5 Синтаксис формул и встроенные функции"
+    },
+    {
+      "id": "5427",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Интерфейс визуализатора"
+    },
+    {
+      "id": "5430",
+      "images": 0,
+      "urls": [],
+      "total_images": 1,
+      "banner_images": 1,
+      "navigation_images": 0,
+      "mark": "(только оглавление)",
+      "title": "Масштабирование схемы проектных связей"
+    },
+    {
+      "id": "5577",
+      "images": 0,
+      "urls": [],
+      "total_images": 1,
+      "banner_images": 1,
+      "navigation_images": 0,
+      "mark": "(только оглавление)",
+      "title": "Закладка Настройка файла конфигурации"
+    },
+    {
+      "id": "5674",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с версиями технологических объектов в IPS"
+    },
+    {
+      "id": "5739",
+      "images": 0,
+      "urls": [],
+      "total_images": 1,
+      "banner_images": 1,
+      "navigation_images": 0,
+      "mark": "(только оглавление)",
+      "title": "Настройка Рабочая область"
+    },
+    {
+      "id": "5845",
+      "images": 0,
+      "urls": [],
+      "total_images": 1,
+      "banner_images": 1,
+      "navigation_images": 0,
+      "mark": "(только оглавление)",
+      "title": "Операторы"
+    },
+    {
+      "id": "5998",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Пользовательские плагины"
+    },
+    {
+      "id": "5999",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Добавление информации о единицах состава"
+    },
+    {
+      "id": "6006",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Цветовое разделение объектов по шагам ЖЦ и выборкам"
+    },
+    {
+      "id": "6068",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройка конфигурации экспорта"
+    },
+    {
+      "id": "6076",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройка конфигурации импорта"
+    },
+    {
+      "id": "6084",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Экспорт/импорт объектов в файл XML"
+    },
+    {
+      "id": "6087",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Описание формата файлов XML"
+    },
+    {
+      "id": "6169",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Описание модуля для работы с производственными ведомостями"
+    },
+    {
+      "id": "6195",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Формирование отчетов и сложных ведомостей"
+    },
+    {
+      "id": "6339",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки органайзера"
+    },
+    {
+      "id": "6358",
+      "images": 0,
+      "urls": [],
+      "total_images": 1,
+      "banner_images": 1,
+      "navigation_images": 0,
+      "mark": "(только оглавление)",
+      "title": "Правила присвоения значений в базе Imbase значения атрибутов Сортировка СП и Функциональная группа"
+    },
+    {
+      "id": "6477",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Общие настройки"
+    },
+    {
+      "id": "6486",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Схемы ЖЦ ЭИ"
+    },
+    {
+      "id": "6490",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание объекта с обязательным включением в ЭИ"
+    },
+    {
+      "id": "6497",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание объекта с предложением включения в ЭИ"
+    },
+    {
+      "id": "6500",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Первичный выпуск ранее созданных объектов через ЭИ"
+    },
+    {
+      "id": "6507",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание версий объектов без включения в ЭИ"
+    },
+    {
+      "id": "6510",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание версий объектов через предложение включения в ЭИ"
+    },
+    {
+      "id": "6513",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Создание версий объектов только через включение в ЭИ"
+    },
+    {
+      "id": "6650",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Настройки в дереве Навигатора"
+    },
+    {
+      "id": "6692",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Автоматический расчет атрибута"
+    },
+    {
+      "id": "6695",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Сброс подписей у родительских объектов"
+    },
+    {
+      "id": "6780",
+      "images": 1,
+      "urls": [
+        "../images/7cb2f0ba9d35941eafe7d457432e9fcd.png"
+      ],
+      "total_images": 2,
+      "banner_images": 1,
+      "navigation_images": 0,
+      "mark": "(только иллюстрации)",
+      "title": "Закладка Программные спецификации"
+    },
+    {
+      "id": "6809",
+      "images": 0,
+      "urls": [],
+      "total_images": 3,
+      "banner_images": 1,
+      "navigation_images": 2,
+      "mark": "(только оглавление)",
+      "title": "Работа с САПР Autodesk Revit"
+    }
+  ],
+  "sections_before": {
+    "eksport-import-xml-faylov": {
+      "entries": 62,
+      "nested": 55,
+      "toc": 4,
+      "illustrations": 0,
+      "paths": 2
+    },
+    "improject-upravlenie-proektami": {
+      "entries": 39,
+      "nested": 27,
+      "toc": 1,
+      "illustrations": 0,
+      "paths": 0
+    },
+    "proizvodstvennye-vedomosti": {
+      "entries": 32,
+      "nested": 24,
+      "toc": 2,
+      "illustrations": 0,
+      "paths": 2
+    },
+    "provedenie-izmeneniy-v-ekd": {
+      "entries": 74,
+      "nested": 58,
+      "toc": 8,
+      "illustrations": 0,
+      "paths": 2
+    },
+    "rukovodstvo-administratora": {
+      "entries": 608,
+      "nested": 591,
+      "toc": 22,
+      "illustrations": 0,
+      "paths": 71
+    },
+    "rukovodstvo-konstruktora": {
+      "entries": 507,
+      "nested": 499,
+      "toc": 17,
+      "illustrations": 1,
+      "paths": 120
+    },
+    "rukovodstvo-po-rabote-integratora-s-autodesk-revit": {
+      "entries": 12,
+      "nested": 10,
+      "toc": 1,
+      "illustrations": 0,
+      "paths": 0
+    },
+    "rukovodstvo-polzovatelya": {
+      "entries": 836,
+      "nested": 816,
+      "toc": 35,
+      "illustrations": 1,
+      "paths": 20
+    },
+    "rukovodstvo-tehnologa": {
+      "entries": 117,
+      "nested": 112,
+      "toc": 11,
+      "illustrations": 0,
+      "paths": 10
+    }
+  },
+  "sections_after": {
+    "eksport-import-xml-faylov": {
+      "entries": 62,
+      "nested": 55,
+      "toc": 4,
+      "illustrations": 0,
+      "paths": 2
+    },
+    "improject-upravlenie-proektami": {
+      "entries": 39,
+      "nested": 27,
+      "toc": 1,
+      "illustrations": 0,
+      "paths": 0
+    },
+    "proizvodstvennye-vedomosti": {
+      "entries": 32,
+      "nested": 24,
+      "toc": 2,
+      "illustrations": 0,
+      "paths": 2
+    },
+    "provedenie-izmeneniy-v-ekd": {
+      "entries": 74,
+      "nested": 58,
+      "toc": 8,
+      "illustrations": 0,
+      "paths": 2
+    },
+    "rukovodstvo-administratora": {
+      "entries": 608,
+      "nested": 591,
+      "toc": 22,
+      "illustrations": 0,
+      "paths": 71
+    },
+    "rukovodstvo-konstruktora": {
+      "entries": 507,
+      "nested": 499,
+      "toc": 17,
+      "illustrations": 1,
+      "paths": 120
+    },
+    "rukovodstvo-po-rabote-integratora-s-autodesk-revit": {
+      "entries": 12,
+      "nested": 10,
+      "toc": 1,
+      "illustrations": 0,
+      "paths": 0
+    },
+    "rukovodstvo-polzovatelya": {
+      "entries": 836,
+      "nested": 816,
+      "toc": 35,
+      "illustrations": 1,
+      "paths": 20
+    },
+    "rukovodstvo-tehnologa": {
+      "entries": 117,
+      "nested": 112,
+      "toc": 11,
+      "illustrations": 0,
+      "paths": 10
+    }
+  },
+  "changed_title_ids": [],
+  "changed_path_ids": [],
+  "example_ids": [
+    "6044",
+    "6065"
+  ],
+  "bold_before": "· Найти в TECHCARD.MNU раздел **ctools** и добавить в конец раздела строку вида: [MyTool,Моя наладка]^C(C:set_tool \"C:/tools/MyTool\") ",
+  "bold_after": "· Найти в TECHCARD.MNU раздел **ctools** и добавить в конец раздела строку вида: [MyTool,Моя наладка]^C(C:set_tool \"C:/tools/MyTool\") "
+}
