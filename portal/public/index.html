@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IPS Portal</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!-- ================= Login ================= -->
+    <section id="login-screen" class="screen hidden">
+      <div class="login-card">
+        <h1>IPS Portal</h1>
+        <p class="muted">Введите логин. Он передаётся в заголовке <code>X-User</code>.</p>
+        <form id="login-form" autocomplete="off">
+          <input id="login-input" name="user" type="text" placeholder="Например: fedor" required maxlength="64" />
+          <button type="submit" class="primary">Войти</button>
+        </form>
+        <p id="login-error" class="error-text hidden"></p>
+      </div>
+    </section>
+
+    <!-- ================= Home ================= -->
+    <section id="home-screen" class="screen hidden">
+      <header class="topbar">
+        <div class="brand">IPS Portal</div>
+        <div class="topbar-right">
+          <span id="current-user" class="muted"></span>
+          <button id="logout-button" class="ghost">Выйти</button>
+        </div>
+      </header>
+
+      <main class="content">
+        <h2>Режимы работы</h2>
+        <p class="muted">Выберите режим — откроется новая сессия с этим агентом.</p>
+        <div id="modes" class="tiles"></div>
+
+        <h2>Мои сессии</h2>
+        <div id="sessions" class="sessions"></div>
+      </main>
+    </section>
+
+    <!-- ================= Chat ================= -->
+    <section id="chat-screen" class="screen hidden">
+      <header class="topbar">
+        <button id="back-button" class="ghost">← Назад</button>
+        <div class="chat-title">
+          <span id="chat-title-text"></span>
+          <span id="chat-agent" class="badge"></span>
+        </div>
+        <button id="delete-button" class="ghost danger">Удалить</button>
+      </header>
+
+      <main class="chat-layout">
+        <div id="messages" class="messages"></div>
+
+        <div id="files-panel" class="files-panel">
+          <h3>Файлы сессии</h3>
+          <ul id="files" class="files"></ul>
+        </div>
+
+        <form id="composer" class="composer">
+          <textarea id="composer-input" rows="3" placeholder="Ваш вопрос… (Enter — отправить, Shift+Enter — новая строка)"></textarea>
+          <button type="submit" class="primary" id="send-button">Отправить</button>
+        </form>
+        <p id="chat-error" class="error-text hidden"></p>
+      </main>
+    </section>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

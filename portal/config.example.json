@@ -1,0 +1,66 @@
+{
+  "$comment": "Шаблон. Скопируйте в config.json и правьте под своё окружение. Секреты сюда не кладите: пароль сервера OpenCode берётся из переменной окружения opencode.passwordEnv.",
+
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8099
+  },
+
+  "opencode": {
+    "$comment": "Один общий сервер. Он слушает только 127.0.0.1 и закрыт паролем.",
+    "baseUrl": "http://127.0.0.1:4096",
+    "username": "opencode",
+    "passwordEnv": "OPENCODE_SERVER_PASSWORD",
+    "passwordFile": null,
+    "projectDirectory": "D:\\parsing\\IPS-Durdom-5\\ips-helper-suite-5",
+    "timeoutMs": 60000
+  },
+
+  "$comment_models": "Единственная разрешённая модель. Всё остальное портал отклоняет с кодом model_not_allowed.",
+  "allowed_models": ["opencode/mimo-v2.6-flash-free"],
+  "default_model": "opencode/mimo-v2.6-flash-free",
+
+  "agents": {
+    "$comment": "Пустой allow = взять все агенты OpenCode с mode primary/all. max = сколько плиток показать.",
+    "allow": [],
+    "modes": ["primary", "all"],
+    "max": 3
+  },
+
+  "output": {
+    "$comment": "Каталог результатов. Относительный путь считается от opencode.projectDirectory.",
+    "root": "output",
+    "retentionDays": 7,
+    "writeGitignore": true
+  },
+
+  "limits": {
+    "maxMessageChars": 20000,
+    "requestsPerMinute": 60,
+    "messagesPerMinute": 20,
+    "maxBodyBytes": 262144
+  },
+
+  "files": {
+    "allowedExtensions": ["md", "txt", "csv"],
+    "maxBytes": 10485760
+  },
+
+  "auth": {
+    "$comment": "Заглушка. Заменяется на AD/SSO в src/auth.ts.",
+    "header": "X-User",
+    "userPattern": "^[A-Za-z0-9._\\\\@ -]{1,64}$"
+  },
+
+  "logging": {
+    "level": "info",
+    "file": "logs/portal.log",
+    "console": true
+  },
+
+  "systemRule": {
+    "$comment": "instruction = per-session instruction entry OpenCode v2; prompt = префикс в текст сообщения; both = оба.",
+    "mode": "instruction",
+    "key": "portal-output"
+  }
+}

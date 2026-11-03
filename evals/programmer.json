@@ -8,5 +8,6 @@
   {"prompt":"Как импортировать XML?","expected_route":"ips-programmer","expected_tools":[],"note":"формат IPS"},
   {"prompt":"Покажи lifecycle базы","expected_route":"ips-programmer","expected_tools":["ips_get_lifecycle"],"note":"read-only"},
   {"prompt":"Как настроить права?","expected_route":"ips-programmer","expected_tools":[],"note":"администратор"},
-  {"prompt":"Как читать состав через MCP?","expected_route":"ips-programmer","expected_tools":["ips_get_composition"],"note":"базовое имя инструмента"}
+  {"prompt":"Как читать состав через MCP?","expected_route":"ips-programmer","expected_tools":["ips_get_composition"],"note":"базовое имя инструмента"},
+  {"prompt":"Скрипт C# в Script Pad медленно обрабатывает 50 тысяч объектов — оптимизируй","expected_route":"ips-programmer","expected_tools":[],"note":"производительность C# IPS"}
 ]

@@ -49,3 +49,6 @@ yarn-error.log*
 *.tmp
 *.bak
 *.orig
+
+# Skill eval workspaces (skill-creator runs)
+skills/*-workspace/
