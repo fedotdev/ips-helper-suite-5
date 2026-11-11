@@ -1,0 +1,12 @@
+[
+  {"prompt":"Распакуй IWF из manuals/business-processes и покажи пути XML","expected_route":"ips-workflow","expected_tools":[],"note":"Локальный iwf.py decode; JSON с размерами, корнем и проверкой; исходники неизменны"},
+  {"prompt":"Построй новый бизнес-процесс согласования с возвратом на доработку","expected_route":"ips-workflow","expected_tools":[],"note":"Уточнить роли и условия; локальный кандидат, не обещать новый объект IPS по копии старых ID"},
+  {"prompt":"Скачай IWF шаблона 1293283 через MCP","expected_route":"ips-workflow","expected_tools":["ips_get_object"],"note":"Проверить каталог инструментов; текущий MCP не экспортирует IWF; не выдумывать download endpoint"},
+  {"prompt":"В процессе 1293283 объясни условие Формировать аутентичный файл?","expected_route":"ips-workflow","expected_tools":["ips_get_object","ips_search_objects","ips_get_object_attributes"],"note":"Пустой composition не доказывает отсутствие схемы; искать условие по типу и атрибуту Процесс"},
+  {"prompt":"Поставь readOnly false у условия и сохрани описание","expected_route":"ips-workflow","expected_tools":["ips_get_object","ips_get_object_attributes","ips_get_attribute_type"],"note":"readOnly — состояние, не атрибут. Соблюдать действующие разрешения, не выполнять commit в read-only"},
+  {"prompt":"IWF не распаковывается, попробуй gzip или смещение 32","expected_route":"ips-workflow","expected_tools":[],"note":"Не угадывать формат: один zlib-поток от смещения 0; сообщить причину отказа"},
+  {"prompt":"Добавь в сценарий Workflow создание контрольного поручения","expected_route":"ips-workflow","expected_tools":[],"note":"Сначала контекст процесса, затем подтверждённый C# API из ips-programmer и references/script-workflow"},
+  {"prompt":"Покажи операции и цехозаходы единичного техпроцесса","expected_route":"ips-technologist","expected_tools":[],"note":"Технологический процесс, не бизнес-процесс"},
+  {"prompt":"Оптимизируй общий C# скрипт Script Pad для 50 тысяч объектов","expected_route":"ips-programmer","expected_tools":[],"note":"Производительность кода, контекста Workflow нет"},
+  {"prompt":"Как подписать документ в IPS?","expected_route":"ips-system-helper","expected_tools":[],"note":"Пользовательский интерфейс, не проектирование схемы"}
+]

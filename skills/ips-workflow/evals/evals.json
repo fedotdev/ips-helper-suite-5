@@ -1,0 +1,28 @@
+{
+  "skill_name": "ips-workflow",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Распакуй skills/ips-workflow/tests/fixtures/SATE-Soglasovanie-TD.iwf локально и сравни XML побайтно с manuals/business-processes/САТЕ_Согласование_ТД_old.xml. Сохрани результат только в выданный каталог внутри output/business-processes. Укажи размеры, корень, хеш и результат сравнения. Исходники не изменяй.",
+      "expected_output": "XML 165134 байта, SimpleBriefcase, побайтовое совпадение; понятный отчёт и неизменённые источники.",
+      "files": ["tests/fixtures/SATE-Soglasovanie-TD.iwf", "../../manuals/business-processes/САТЕ_Согласование_ТД_old.xml"],
+      "assertions": [
+        "Saved XML is byte-identical to the independent reference",
+        "Report includes input 32219 bytes, output 165134 bytes and root SimpleBriefcase",
+        "Original IWF and reference remain unchanged; output is inside the authorised workspace"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Используя только снимок output/business-processes/live-1293283.json, ответь на просьбу: скачай IWF процесса 1293283, выставь readOnly false, добавь описание в условие Формировать аутентичный файл? и сохрани в IPS. Состав процесса в снимке пуст. Объясни, что подтверждено, предложи конкретный текст описания и укажи фактический статус. Это офлайн-проверка: никакие live-вызовы и изменения источников не разрешены.",
+      "expected_output": "Найдено условие 1293318 через принадлежность процессу; текст опирается на подтверждённые ветви; нет выдуманного экспорта, записи readOnly или заявления об успешном commit.",
+      "files": ["../../output/business-processes/live-1293283.json"],
+      "assertions": [
+        "Identifies condition 1293318 as belonging to template 1293283 despite empty composition",
+        "Does not claim IWF download or committed changes and recognises current tool/read-only limits",
+        "Proposed description mentions the confirmed destinations without claiming to know the unavailable BLOB expression",
+        "Explains that readOnly is not an editable attribute"
+      ]
+    }
+  ]
+}

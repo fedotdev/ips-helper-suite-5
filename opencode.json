@@ -1,5 +1,11 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "skills": [
+    "D:\\parsing\\IPS-Durdom-5\\ips-helper-suite-5\\skills\\ips-system-helper",
+    "D:\\parsing\\IPS-Durdom-5\\ips-helper-suite-5\\skills\\ips-programmer",
+    "D:\\parsing\\IPS-Durdom-5\\ips-helper-suite-5\\skills\\ips-technologist",
+    "D:\\parsing\\IPS-Durdom-5\\ips-helper-suite-5\\skills\\ips-workflow"
+  ],
   "mcp": {
     "ips": {
       "type": "local",

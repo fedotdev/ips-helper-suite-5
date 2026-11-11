@@ -27,6 +27,7 @@
 /plugin install ips-system-helper
 /plugin install ips-programmer
 /plugin install ips-technologist
+/plugin install ips-workflow
 ```
 
 ### Другие платформы
@@ -35,7 +36,12 @@
 git clone <repo-url>
 ```
 
-Скопируйте содержимое `skills/ips-system-helper/SKILL.md`, `skills/ips-programmer/SKILL.md` и `skills/ips-technologist/SKILL.md` в конфигурацию вашей платформы.
+Скопируйте содержимое `skills/ips-system-helper/SKILL.md`, `skills/ips-programmer/SKILL.md`,
+`skills/ips-technologist/SKILL.md` и `skills/ips-workflow/SKILL.md` в конфигурацию вашей платформы.
+
+OpenCode V2 читает четыре локальных каталога через `opencode.json → skills`, а маршрутизатор —
+через `.opencode/skills/ips-helper-suite.md`. Изменения подхватываются автоматически;
+при необходимости используйте `/reload`. Каталоги результатов проверки скиллов не подключаются.
 
 > [!NOTE]
 > Suite совместим с любыми платформами, поддерживающими стандарт SKILL.md (17+ инструментов).
@@ -50,7 +56,8 @@ ips-helper-suite-5/
 ├── AGENTS.md                 # Активация и маршрутизация для агентов
 ├── discovery.json            # Метаданные для marketplace
 ├── manuals/                  # Руководства IPS, транскрипты, примеры скриптов
-│   └── lessons/              # Транскрипты видеоуроков GMT*.txt + README-индекс
+│   ├── lessons/              # Транскрипты видеоуроков GMT*.txt + README-индекс
+│   └── business-processes/   # Экспорты IWF, независимый XML-эталон, индекс
 ├── references/               # Проверенные переписки, примеры ответов по ГОСТ
 │   ├── from-perplexity/      # Разборы из Perplexity: хорошие/плохие кейсы помощи
 │   ├── script-workflow/      # Анализы бесед по разработке (скрипты Workflow и др.)
@@ -59,7 +66,8 @@ ips-helper-suite-5/
 └── skills/
     ├── ips-system-helper/    # Помощник по интерфейсу IPS
     ├── ips-programmer/       # Программист IPS
-    └── ips-technologist/     # Технолог по live-данным ЕТП
+    ├── ips-technologist/     # Технолог по live-данным ЕТП
+    └── ips-workflow/         # Бизнес-процессы и локальный конвертер IWF/XML
 ```
 
 ---
@@ -98,6 +106,27 @@ Read-only анализ live-данных ЕТП через IPS-MCP: маршру
 | ЕТП и маршрут | "Что в ЕТП изделия X?" |
 | Операции и цеха | "Покажи операции и цехозаходы" |
 | Сопоставление раскадровки | "Проверь операции по данным IPS" |
+
+### /ips-workflow — Бизнес-процессы IPS
+
+Разбор и проектирование схем Workflow, условий, действий, исполнителей и сценариев.
+Локальный компонент Python 3.10+ распаковывает IWF и собирает XML-кандидаты обратно в IWF,
+используя только стандартную библиотеку. Выход — `output/business-processes/`.
+
+```powershell
+python -X utf8 skills/ips-workflow/scripts/iwf.py decode manuals/business-processes
+python -X utf8 skills/ips-workflow/scripts/iwf.py encode "output/business-processes/drafts/процесс.xml"
+python -X utf8 -m unittest discover -s skills/ips-workflow/tests -v
+```
+
+Лимит XML — 20 МиБ; проверяются zlib, завершение потока, отсутствие хвоста и безопасный XML.
+Байты XML сохраняются без преобразования. Существующие выходные файлы защищены от перезаписи;
+для повторного запуска одного файла используйте `--output` с новым именем.
+
+Через MCP доступны карточки и некоторые элементы процесса. Экспорт/импорт целого IWF
+текущим сервером не предоставляется; локальная упаковка не импортирует ничего в IPS.
+Индекс образцов: [manuals/business-processes/README.md](manuals/business-processes/README.md).
+Полный контракт: [skills/ips-workflow/references/iwf-format.md](skills/ips-workflow/references/iwf-format.md).
 
 > [!TIP]
 > Suite автоматически маршрутизирует запросы. Задайте вопрос о IPS — система направит к нужному компоненту.

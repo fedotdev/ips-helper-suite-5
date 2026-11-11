@@ -1,0 +1,3474 @@
+﻿<?xml version="1.0"?>
+<SimpleBriefcase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SimpleBriefcaseClient">
+  <Version>1</Version>
+  <Map>
+    <Items>
+      <Item>
+        <Key>
+          <Domain>ObjectTypes</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>1133</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002ac-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Шаблоны процессов</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1098</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002be-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Формы редактирования данных маршрутизатора</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1449</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002b3-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Старт</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1339</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002b6-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Стоп</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1288</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002bf-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Изменение статуса</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1123</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad009ec-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Технологические документы</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1460</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002b4-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Утверждение</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1313</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002b7-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Условный переход</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1151</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002b0-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Связи</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1890</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd996e-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Общие сценарии маршрутизатора</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+      <Item>
+        <Key>
+          <Domain>Objects</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>1147543</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d42fe7e4-d4d1-49f5-8fc0-f44878f08bf6</Guid>
+                  <Caption>САТЕ Согласование ТД</Caption>
+                  <ObjectGuid>c51f0dfa-4e7a-432a-a0f2-1e9e0eb637b1</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1118777</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d8f9212a-129b-4570-a274-5a327196411d</Guid>
+                  <Caption>Ведущий инженер-технолог</Caption>
+                  <ObjectGuid>5dc009f2-33c2-47b7-aa67-721f94adc6d6</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1151086</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>5e536788-9a04-4be8-aecc-26c995649769</Guid>
+                  <Caption>Форма</Caption>
+                  <ObjectGuid>60506bac-db35-452a-ae8a-dccca05200bc</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1147545</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>64a6c100-0fb9-4de4-a5f1-2c7ad675a874</Guid>
+                  <Caption>Старт</Caption>
+                  <ObjectGuid>010978b8-dc4c-48ab-ae98-172351af56b5</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1147547</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>944703ac-f591-4cab-9057-3efd571c2822</Guid>
+                  <Caption>Стоп</Caption>
+                  <ObjectGuid>4b07dfee-9338-4bed-a672-ec1ad380c67a</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1148326</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>f62165c4-c0b2-4ac4-a676-905b98738058</Guid>
+                  <Caption>Согласование и утверждение</Caption>
+                  <ObjectGuid>0a57be27-33c0-43c1-a435-62d6025585f9</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1148330</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>48ccc857-b201-4345-bd59-d941081670dc</Guid>
+                  <Caption>Проверил</Caption>
+                  <ObjectGuid>b231b0f9-f8cd-490d-ae88-d9c2d3f02fd5</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1148340</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>aa047968-6e48-4cb3-884b-731851097ad1</Guid>
+                  <Caption>Утвердил</Caption>
+                  <ObjectGuid>15992fc0-014e-49f5-80e8-300396a3df15</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>92684</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>e8f77a98-7931-4715-a35f-edf73a3d27d3</Guid>
+                  <Caption>Главный технолог</Caption>
+                  <ObjectGuid>464295e7-fbd4-1290-8ef7-637440000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1148342</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>9db432aa-6f60-4893-8404-2ee4df5b8338</Guid>
+                  <Caption>Н.контр</Caption>
+                  <ObjectGuid>0c6854f7-505e-493a-87d3-076f6de1677e</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1221822</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d9554d51-8100-4c52-badc-4e183e139842</Guid>
+                  <Caption>Нормоконтролер</Caption>
+                  <ObjectGuid>a832606a-f965-488f-9e89-7b6bda7ac61e</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1148344</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>c1479802-cbf2-401c-a6ac-67cc1fec12e3</Guid>
+                  <Caption>М.контр</Caption>
+                  <ObjectGuid>9099fcb4-4ea8-4d44-9050-ad312da37489</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1118761</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>f814e839-4eba-412d-a9ce-4f46a5a7f485</Guid>
+                  <Caption>Начальник ОТК</Caption>
+                  <ObjectGuid>6b7c7a07-cdac-4fb6-a638-2a86d516244d</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1118603</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>3419ff4b-3f7f-4680-aabc-caaab03c90aa</Guid>
+                  <Caption>Главный метролог</Caption>
+                  <ObjectGuid>ea93bb62-9568-4a9c-80e1-161e432c6825</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1148348</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>2d6f964f-053e-4723-be31-a802cc4b6753</Guid>
+                  <Caption>Создание и модификация</Caption>
+                  <ObjectGuid>de1efce9-3538-484b-ba57-372aec68b912</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1149069</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>a323e9ec-82c5-4415-971e-f6b907fe8091</Guid>
+                  <Caption>Производство и эксплуатация</Caption>
+                  <ObjectGuid>63542f29-51c8-4cac-b845-47fda6aa4684</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170174</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d9c47bbb-bc2c-415e-9366-a6f9567b813d</Guid>
+                  <Caption>Разработал</Caption>
+                  <ObjectGuid>1893891f-06ac-4948-bf5e-7bfa45a0f46d</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170370</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d634a0c7-6ea6-4b9d-ad19-d5c64c42346a</Guid>
+                  <Caption>Нужен М.контр?</Caption>
+                  <ObjectGuid>7a7ec271-1550-4964-8b84-936cd2b2bbec</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420471</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>bda7cb3b-26ae-4cf1-b0c4-b03b20b0f5f0</Guid>
+                  <Caption>Нужен Утверждающий?</Caption>
+                  <ObjectGuid>67d65471-6fc9-4012-a4fa-d4c654dd0d97</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420513</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>aade45f6-f600-45bc-8d25-684c64941baa</Guid>
+                  <Caption>Нач. ОТК</Caption>
+                  <ObjectGuid>70fd1ff4-d8ca-49e7-be41-a0fddd2951dd</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420515</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>32c7b5ef-a907-4407-ad74-b62b2b6ee949</Guid>
+                  <Caption>Зам. ген. дир. по производству</Caption>
+                  <ObjectGuid>d5818533-d5d8-4444-a63a-4c99fc70d9c6</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1322325</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>efc81441-375d-449b-a468-94dbb46f44e2</Guid>
+                  <Caption>Заместитель генерального директора по производству</Caption>
+                  <ObjectGuid>d5ff69e0-fdb1-4a0d-9f26-a1ef0493de53</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420517</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>25f36474-20fc-4efa-9a00-159efb62adda</Guid>
+                  <Caption>Технический директор</Caption>
+                  <ObjectGuid>88557943-88af-4561-9896-88903c99079a</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1144481</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>7b1ffccc-ec1c-4cd3-a764-12a9bf357aef</Guid>
+                  <Caption>Технический директор </Caption>
+                  <ObjectGuid>dba96ba3-0d48-438f-9ef3-fadf41a32357</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420521</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>8a5a15d8-faf5-4a11-a8c7-a537c75f1791</Guid>
+                  <Caption>Гл. Технолог</Caption>
+                  <ObjectGuid>cb93d48d-6c4c-41f3-80f0-18f83731a54c</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420557</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>54c00daf-4267-4320-8e23-d605aa0c2a3d</Guid>
+                  <Caption>Заполняем ТЛ?</Caption>
+                  <ObjectGuid>5586307a-2d7a-44dd-baa3-a59ccf5fae4f</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420986</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>aab5eca6-7c9f-4dcb-a6f5-ceb687024a33</Guid>
+                  <Caption>Проверка подписей ТЛ</Caption>
+                  <ObjectGuid>2666ad81-afe1-4ccb-aa32-d578cfb59960</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1421000</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>046c2b3d-5277-464f-90c6-cf13ce6672cd</Guid>
+                  <Caption />
+                  <ObjectGuid>ee0a8dab-ebbb-4e82-9358-da8f41a37f94</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420998</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>eff2413e-c03f-4b06-8cbb-ec37bd7fe7fd</Guid>
+                  <Caption />
+                  <ObjectGuid>effed202-4b85-4047-810d-250af0a2f4f1</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420996</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>8723929d-c8eb-4c07-8731-64f3f1863aab</Guid>
+                  <Caption />
+                  <ObjectGuid>a408feb3-e3fc-44b6-9158-2816f09da336</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420994</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>4b33d9e1-7eaf-436b-87df-c722afa573fb</Guid>
+                  <Caption />
+                  <ObjectGuid>a8da207e-56f9-4678-a5fd-20bc4de8a8e7</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420992</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>fabfc214-02f6-4402-b7e1-1904ee77e7ea</Guid>
+                  <Caption />
+                  <ObjectGuid>adf84497-1b66-4adf-9869-e51820babc12</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420990</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>7cfbd72f-e7e9-44a8-8f6a-d63d654c41f8</Guid>
+                  <Caption />
+                  <ObjectGuid>e1de1da7-82a6-4e9e-a95b-0780a5ad3cb7</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420988</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d6e83627-a9d5-43f6-903b-47e24fda4e4b</Guid>
+                  <Caption />
+                  <ObjectGuid>bfb98331-31eb-41dd-92c5-e3f2c0ff1abc</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420569</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>99e2b2d6-e3d6-461f-bd3c-d72f8b493288</Guid>
+                  <Caption />
+                  <ObjectGuid>5e1c5487-1b2e-455b-83c9-a771076f7c20</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420567</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>a491b815-3c8a-4307-baf5-46d56f7bf818</Guid>
+                  <Caption />
+                  <ObjectGuid>41068d22-cc69-4aea-9a7e-cddbe072851a</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420565</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>5fe55774-4dd9-4ae6-a0f1-78d9214745da</Guid>
+                  <Caption />
+                  <ObjectGuid>aec5c474-4ac3-4437-a5d8-f4f1af963179</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420563</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>ebf5cd16-7738-43b2-a052-726f62d9da0d</Guid>
+                  <Caption />
+                  <ObjectGuid>688a3cab-ed3d-4078-83fd-a804ff74b77c</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420559</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>dd9fcec6-d066-4697-96fd-22920d65c4f3</Guid>
+                  <Caption />
+                  <ObjectGuid>01281eb1-b230-4629-a085-432c3eaa6b88</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420555</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>ed2a6b77-82ef-4927-8b92-028bc0f433ef</Guid>
+                  <Caption />
+                  <ObjectGuid>c502dc08-b72e-4517-a4f2-87a9efebab89</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420551</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>b99a997f-203a-4f05-8971-1230bc248643</Guid>
+                  <Caption />
+                  <ObjectGuid>3d486ccb-211a-43bd-afae-1c7354554441</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420549</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>4d72f4fa-20f7-4d0f-87f7-3fd1ee28bcd3</Guid>
+                  <Caption />
+                  <ObjectGuid>74ededef-d439-4c5a-bba1-8e64a8b8fcdb</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420547</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>20238a30-cd3d-4905-9462-9f4e4d962406</Guid>
+                  <Caption />
+                  <ObjectGuid>9a1b3a70-14d6-452e-a0ec-8fd55808bd92</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420481</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>889ff280-867c-4a6d-9991-a9b572cf3dd6</Guid>
+                  <Caption />
+                  <ObjectGuid>96b61a13-2c2f-4483-84ba-60c8e8e88d72</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420479</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>f09e8c57-3512-42c2-9a62-3023df94883f</Guid>
+                  <Caption />
+                  <ObjectGuid>cd47267e-1536-4e2b-9617-36f24cd85bd1</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420477</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>fac38a75-29c0-4a72-b6ca-69c51687b2cb</Guid>
+                  <Caption />
+                  <ObjectGuid>b866205e-8f08-4eca-999d-7295bb75ef39</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420475</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>4b675561-e973-434d-947a-617bf5f2434c</Guid>
+                  <Caption />
+                  <ObjectGuid>89040eb3-8935-4325-a28f-f2e9ed30f72a</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420473</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>51f2725f-e5ab-4813-b765-2b439c29751d</Guid>
+                  <Caption />
+                  <ObjectGuid>33c7fb5b-412b-4852-9f02-ba0c07d16285</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420467</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>5491de8d-8bb6-4656-880d-2da3dcf34688</Guid>
+                  <Caption />
+                  <ObjectGuid>22fc33d9-0c8c-42a4-9cec-2c8f789fced6</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1420461</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>71f4bff3-cd45-48b3-b4c7-a67144bc27cc</Guid>
+                  <Caption />
+                  <ObjectGuid>eabe27d3-4b09-44b7-b91a-2d705b01bbc1</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170374</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>aa59d004-1bb8-4f82-b876-eee68203b3bb</Guid>
+                  <Caption />
+                  <ObjectGuid>9ae60841-51b8-434c-b506-4b0a1e3adbf0</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170190</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>e18a0fb3-1632-4ff8-bca3-d19d6e51cebf</Guid>
+                  <Caption />
+                  <ObjectGuid>e8b333e2-6e75-4e6e-aee8-93d9d2460c78</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170188</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>1c888264-4210-4b99-be29-c717756bcd43</Guid>
+                  <Caption />
+                  <ObjectGuid>4694180e-2eb3-4d6b-96dd-7e261051bceb</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170180</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>87c1391d-66e7-41f6-aa0e-fa1b09430418</Guid>
+                  <Caption />
+                  <ObjectGuid>356f3544-c7a8-4a80-94dc-fa6a67ef6111</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170178</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>d7cf4023-80af-481c-98d5-e6a2dac06106</Guid>
+                  <Caption />
+                  <ObjectGuid>981d24ee-56a0-4a34-add9-d65d7f06553c</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1170176</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>2b0c8ef1-d236-45cf-8f38-31d1b86c86e7</Guid>
+                  <Caption />
+                  <ObjectGuid>fe508cde-9d3a-40d5-897e-3aa2bdbbb5f7</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1151040</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cd2c1fb8-ea9a-4dbe-a94e-43cc4894d51e</Guid>
+                  <Caption />
+                  <ObjectGuid>2bd6a3b5-b8a6-49e6-a67c-96fb3bd50201</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1151038</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>40893f20-d334-4ea1-ba63-9a0cfc45b3d4</Guid>
+                  <Caption />
+                  <ObjectGuid>51d442e8-74d7-40f8-a6b3-40d0203b1a1f</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1149225</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>31df15d6-1bf3-48db-b63c-be9259612071</Guid>
+                  <Caption />
+                  <ObjectGuid>3675028e-8a74-48be-9e9c-efb73b09a937</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1149213</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>bac2d1c5-32f5-4829-be89-172745cd3c8b</Guid>
+                  <Caption />
+                  <ObjectGuid>0f463a9a-81a7-4b11-8593-f1a0f9c54baa</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1359182</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>6612b586-7e69-47ad-8bad-e5b10cf26bb4</Guid>
+                  <Caption>Формирование аутентичных файлов</Caption>
+                  <ObjectGuid>6aef94e1-8399-4742-b247-3135ce3c3b4b</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+      <Item>
+        <Key>
+          <Domain>Steps</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>1040</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>40dbe21d-2f6e-45af-a699-9bd229cc1e92</Guid>
+                  <Caption>Создано</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>10004</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00807-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Создание объекта</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1002</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>ebb4bcd6-269b-4185-91d0-a167fc7343f0</Guid>
+                  <Caption>Создано</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1056</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd96a5-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>На согласовании</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1050</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd96a4-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>В разработке</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1058</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd96a2-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Выпущен</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+      <Item>
+        <Key>
+          <Domain>Attributes</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>1305</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002cd-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Статус действия</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1319</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0034f-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Переменные</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18107</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd98be-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Разрешенные типы вложений</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18176</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd9967-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Шаблон в режиме отладки</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18205</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd99ab-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Показывать форму при отправке действия назад</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18774</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd9dd4-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Редактируется в Web</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1028</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0011d-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Форма ввода информации</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>15252</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd9212-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Не показывать форму при создании объекта</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18822</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0205a-4b07-49fe-8d74-55c99ddb53bb</Guid>
+                  <Caption>Не показывать форму после создания объекта</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>7</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0001c-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Описание</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1042</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002c7-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Коллектор</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1306</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002ce-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Процесс</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1327</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00350-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Пользовательская форма</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1335</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0035d-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Доп. инфо</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>17579</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd94f3-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Графические данные</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1314</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002d5-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Уведомления</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1338</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0035b-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Настройки ЖЦ</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1325</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002c4-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Исполнители</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1326</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0034c-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Откат</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1329</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0035a-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Требуемые подписи</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1330</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00363-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Что подписывать</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18548</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cadd9c07-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Выполнено системой</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1322</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00360-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Вид сценария</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1323</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad01328-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Где выполнять сценарий</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1331</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00351-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Условие перехода</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1317</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0035e-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Идентификатор (tag)</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1370</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002c6-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Связь исходит из</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1371</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad002c5-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Связь входит в</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1388</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad0034d-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Тип связи между действиями</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>1324</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00366-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Текст сценария</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+      <Item>
+        <Key>
+          <Domain>Variables</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>17927</long>
+              </Key>
+              <Value>
+                <MapperObject xsi:type="MapperVariable">
+                  <Guid>f79d4a67-b3fe-45f5-b19f-35267b06e6e7</Guid>
+                  <Caption>М.контр</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                  <Type>Boolean</Type>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>17923</long>
+              </Key>
+              <Value>
+                <MapperObject xsi:type="MapperVariable">
+                  <Guid>67dc8038-d0b8-42c3-a4fd-d7e9a444f039</Guid>
+                  <Caption>Пров.вх</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                  <Type>ParticipantList</Type>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>17924</long>
+              </Key>
+              <Value>
+                <MapperObject xsi:type="MapperVariable">
+                  <Guid>54df3ac6-e8df-417f-adf5-1501eda5e8e7</Guid>
+                  <Caption>Пров.вых</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                  <Type>ParticipantList</Type>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18982</long>
+              </Key>
+              <Value>
+                <MapperObject xsi:type="MapperVariable">
+                  <Guid>fbdbc18c-4658-4798-a461-6dc7658437fa</Guid>
+                  <Caption>Утв.</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                  <Type>Boolean</Type>
+                </MapperObject>
+              </Value>
+            </Item>
+            <Item>
+              <Key>
+                <long>18984</long>
+              </Key>
+              <Value>
+                <MapperObject xsi:type="MapperVariable">
+                  <Guid>3f7017a5-c4ec-41e9-9b2d-e3c713be6a9b</Guid>
+                  <Caption>Заполнение ТЛ</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                  <Type>Boolean</Type>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+      <Item>
+        <Key>
+          <Domain>RelTypes</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>1018</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>cad00367-306c-11d8-b4e9-00304f19f545</Guid>
+                  <Caption>Связь со сценариями</Caption>
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+      <Item>
+        <Key>
+          <Domain>Relations</Domain>
+        </Key>
+        <Value>
+          <Dictionary>
+            <Item>
+              <Key>
+                <long>1420676</long>
+              </Key>
+              <Value>
+                <MapperObject>
+                  <Guid>e2fc8ddd-5276-41a0-b5f4-ad70f48da97b</Guid>
+                  <Caption />
+                  <ObjectGuid>00000000-0000-0000-0000-000000000000</ObjectGuid>
+                  <ParentVersionGuid>00000000-0000-0000-0000-000000000000</ParentVersionGuid>
+                </MapperObject>
+              </Value>
+            </Item>
+          </Dictionary>
+        </Value>
+      </Item>
+    </Items>
+  </Map>
+  <Items>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1147543</ID>
+      <TypeID>1133</TypeID>
+      <Caption>САТЕ Согласование ТД</Caption>
+      <LCStep>1040</LCStep>
+      <IsRoot>true</IsRoot>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1305</ID>
+      <Value xsi:type="xsd:long">-1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>752</RealFileSize>
+        <Binary>77u/PFZhcnM+DQogIDxWYXI+DQogICAgPElEPjE3OTI3PC9JRD4NCiAgICA8R3VpZD5mNzlkNGE2Ny1iM2ZlLTQ1ZjUtYjE5Zi0zNTI2N2IwNmU2ZTc8L0d1aWQ+DQogICAgPFZhbHVlPjA8L1ZhbHVlPg0KICA8L1Zhcj4NCiAgPFZhcj4NCiAgICA8SUQ+MTc5MjM8L0lEPg0KICAgIDxHdWlkPjY3ZGM4MDM4LWQwYjgtNDJjMy1hNGZkLWQ3ZTlhNDQ0ZjAzOTwvR3VpZD4NCiAgICA8VmFsdWU+Jmx0O1BhcnRpY2lwYW50cyZndDsNCiAgJmx0O1JhbmsmZ3Q7DQogICAgJmx0O0lEJmd0OzExMTg3NzcmbHQ7L0lEJmd0Ow0KICAgICZsdDtHdWlkJmd0O2Q4ZjkyMTJhLTEyOWItNDU3MC1hMjc0LTVhMzI3MTk2NDExZCZsdDsvR3VpZCZndDsNCiAgJmx0Oy9SYW5rJmd0Ow0KJmx0Oy9QYXJ0aWNpcGFudHMmZ3Q7PC9WYWx1ZT4NCiAgPC9WYXI+DQogIDxWYXI+DQogICAgPElEPjE3OTI0PC9JRD4NCiAgICA8R3VpZD41NGRmM2FjNi1lOGRmLTQxN2YtYWRmNS0xNTAxZWRhNWU4ZTc8L0d1aWQ+DQogIDwvVmFyPg0KICA8VmFyPg0KICAgIDxJRD4xODk4MjwvSUQ+DQogICAgPEd1aWQ+ZmJkYmMxOGMtNDY1OC00Nzk4LWE0NjEtNmRjNzY1ODQzN2ZhPC9HdWlkPg0KICAgIDxWYWx1ZT4wPC9WYWx1ZT4NCiAgPC9WYXI+DQogIDxWYXI+DQogICAgPElEPjE4OTg0PC9JRD4NCiAgICA8R3VpZD4zZjcwMTdhNS1jNGVjLTQxZTktOWIyZC1lM2M3MTNiZTZhOWI8L0d1aWQ+DQogICAgPFZhbHVlPjA8L1ZhbHVlPg0KICA8L1Zhcj4NCjwvVmFycz4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">,4607,4603,4604,4A26,4A28,</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18107</ID>
+      <Value xsi:type="xsd:string">-3,1117</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18176</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18205</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18774</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1151086</ID>
+      <TypeID>1098</TypeID>
+      <Caption>Форма</Caption>
+      <LCStep>10004</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1028</ID>
+      <Blob>
+        <Arc>Zstd</Arc>
+        <RealFileSize>28545</RealFileSize>
+        <Binary>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</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">Форма Редактирования</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>15252</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18822</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1147545</ID>
+      <TypeID>1449</TypeID>
+      <Caption>Старт</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">Разработать технологический документ согласно требованиям полученного задания и согласовать его.</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1327</ID>
+      <Value xsi:type="xsd:long">1151086</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>287</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+LTMsMTExNzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=81,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1147547</ID>
+      <TypeID>1339</TypeID>
+      <Caption>Стоп</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1314</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>299</RealFileSize>
+        <Binary>77u/PE5vdGlmaWNhdGlvbnM+DQogIDxTdG9wPg0KICAgIDxTdWJqZWN0PtCf0L7QtNC/0LjRgdCw0L3QviE8L1N1YmplY3Q+DQogICAgPFRleHQ+0J/QvtC00L/QuNGB0LDQvdC+ITwvVGV4dD4NCiAgICA8UGFydGljaXBhbnRzPg0KICAgICAgPFZhcmlhYmxlPg0KICAgICAgICA8SUQ+MTM5NDwvSUQ+DQogICAgICAgIDxHdWlkPmNhZDAwMzU4LTMwNmMtMTFkOC1iNGU5LTAwMzA0ZjE5ZjU0NTwvR3VpZD4NCiAgICAgIDwvVmFyaWFibGU+DQogICAgPC9QYXJ0aWNpcGFudHM+DQogIDwvU3RvcD4NCjwvTm90aWZpY2F0aW9ucz4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">T</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>107</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPFByb2Nlc3NMQ0RpcmVjdGlvbj4wPC9Qcm9jZXNzTENEaXJlY3Rpb24+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1731,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1148326</ID>
+      <TypeID>1288</TypeID>
+      <Caption>Согласование и утверждение</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">На этом этапе ЖЦ документация недоступна для редактирования </Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>107</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPFByb2Nlc3NMQ0RpcmVjdGlvbj4wPC9Qcm9jZXNzTENEaXJlY3Rpb24+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1338</ID>
+      <Value xsi:type="xsd:string">&lt;LC Count="1"&gt;
+  &lt;LC1&gt;
+    &lt;TypeGuid&gt;cad009ec-306c-11d8-b4e9-00304f19f545&lt;/TypeGuid&gt;
+    &lt;Type&gt;1123&lt;/Type&gt;
+    &lt;Kind&gt;0&lt;/Kind&gt;
+    &lt;StepGuid&gt;cadd96a5-306c-11d8-b4e9-00304f19f545&lt;/StepGuid&gt;
+    &lt;StepID&gt;1056&lt;/StepID&gt;
+    &lt;LevelID&gt;0&lt;/LevelID&gt;
+    &lt;ExecTime&gt;0&lt;/ExecTime&gt;
+  &lt;/LC1&gt;
+&lt;/LC&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=125,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1148330</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Проверил</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">Проверяющий согласовывает ТД и ставит подпись в графе "Проверил".
+При наличии замечаний передает ее Разработчику для их устранения.
+
+
+Выходные данные:
+ТД;
+Подпись в графе "Проверил".
+</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Variable&gt;
+    &lt;ID&gt;17924&lt;/ID&gt;
+    &lt;Guid&gt;54df3ac6-e8df-417f-adf5-1501eda5e8e7&lt;/Guid&gt;
+  &lt;/Variable&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="2" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=369,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1148340</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Утвердил</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">Главный технолог утверждает ТД, которая затем передается в архив на хранение.
+
+Выходные данные:
+ТД;
+Подпись в графе Утв.
+</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;92684&lt;/ID&gt;
+    &lt;Guid&gt;e8f77a98-7931-4715-a35f-edf73a3d27d3&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="3" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=820,Y=431</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1148342</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Н.контр</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">Нормоконтролер согласовывает ТД и ставит подпись в графе Н.контр.
+При наличии замечаний передает ее Разработчику для их устранения.
+
+Выходные данные:
+ТД;
+Подпись в графе Н.контр.
+</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;1221822&lt;/ID&gt;
+    &lt;Guid&gt;d9554d51-8100-4c52-badc-4e183e139842&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="6" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=926,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1148344</ID>
+      <TypeID>1460</TypeID>
+      <Caption>М.контр</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">Метролог согласовывает ТД и ставит подпись в графе М.контр.(выполняется по необходимости).
+При наличии замечаний передает ее Разработчику на их устранение.
+
+Выходные данные:
+ТД;
+Подпись в графе М.контр.
+</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;1118761&lt;/ID&gt;
+    &lt;Guid&gt;f814e839-4eba-412d-a9ce-4f46a5a7f485&lt;/Guid&gt;
+  &lt;/Rank&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;1118603&lt;/ID&gt;
+    &lt;Guid&gt;3419ff4b-3f7f-4680-aabc-caaab03c90aa&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="20" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=625,Y=431</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1148348</ID>
+      <TypeID>1288</TypeID>
+      <Caption>Создание и модификация</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">На этом этапе ЖЦ документация становиться доступной для редактирования.</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1338</ID>
+      <Value xsi:type="xsd:string">&lt;LC Count="1"&gt;
+  &lt;LC1&gt;
+    &lt;TypeGuid&gt;cad009ec-306c-11d8-b4e9-00304f19f545&lt;/TypeGuid&gt;
+    &lt;Type&gt;1123&lt;/Type&gt;
+    &lt;Kind&gt;0&lt;/Kind&gt;
+    &lt;StepGuid&gt;cadd96a4-306c-11d8-b4e9-00304f19f545&lt;/StepGuid&gt;
+    &lt;StepID&gt;1050&lt;/StepID&gt;
+    &lt;LevelID&gt;0&lt;/LevelID&gt;
+    &lt;ExecTime&gt;0&lt;/ExecTime&gt;
+  &lt;/LC1&gt;
+&lt;/LC&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=25,Y=231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1149069</ID>
+      <TypeID>1288</TypeID>
+      <Caption>Производство и эксплуатация</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>7</ID>
+      <Value xsi:type="xsd:string">На данной операции технологическая документация и извещения, вложенные на предыдущих операциях переводятся на шаг жизненного цикла “Производство и эксплуатация”.  Данная операция необходима для то что бы документы нельзя было отредактировать. </Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">true</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>107</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPFByb2Nlc3NMQ0RpcmVjdGlvbj4wPC9Qcm9jZXNzTENEaXJlY3Rpb24+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1338</ID>
+      <Value xsi:type="xsd:string">&lt;LC Count="1"&gt;
+  &lt;LC1&gt;
+    &lt;TypeGuid&gt;cad009ec-306c-11d8-b4e9-00304f19f545&lt;/TypeGuid&gt;
+    &lt;Type&gt;1123&lt;/Type&gt;
+    &lt;Kind&gt;0&lt;/Kind&gt;
+    &lt;StepGuid&gt;cadd96a2-306c-11d8-b4e9-00304f19f545&lt;/StepGuid&gt;
+    &lt;StepID&gt;1058&lt;/StepID&gt;
+    &lt;LevelID&gt;0&lt;/LevelID&gt;
+    &lt;ExecTime&gt;0&lt;/ExecTime&gt;
+  &lt;/LC1&gt;
+&lt;/LC&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1575,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170174</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Разработал</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Variable&gt;
+    &lt;ID&gt;1394&lt;/ID&gt;
+    &lt;Guid&gt;cad00358-306c-11d8-b4e9-00304f19f545&lt;/Guid&gt;
+  &lt;/Variable&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="1" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>229</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgPC9Qcm9wcz4NCjwvaW5pPg==</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=263,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseRelation">
+      <ID>1420676</ID>
+      <TypeID>1018</TypeID>
+      <ProjObjectID>-1170174</ProjObjectID>
+      <PartObjectID>1359182</PartObjectID>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1322</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1323</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170370</ID>
+      <TypeID>1313</TypeID>
+      <Caption>Нужен М.контр?</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1331</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>877</RealFileSize>
+        <Binary>77u/PEZvcm11bGE+DQogIDxyZXMtdHlwZT41PC9yZXMtdHlwZT4NCiAgPGluZml4LWZvcm0gY291bnQ9IjEiPg0KICAgIDxUb2tlbiB0eXBlPSIxMCIgaW5mbz0iMCI+DQogICAgICA8dGV4dD4mbHQ70Jwu0LrQvtC90YLRgCZndDs8L3RleHQ+DQogICAgICA8aS12YWx1ZT4wPC9pLXZhbHVlPg0KICAgIDwvVG9rZW4+DQogIDwvaW5maXgtZm9ybT4NCiAgPHBvc3RmaXgtZm9ybSBjb3VudD0iMSI+DQogICAgPFRva2VuIHR5cGU9IjEwIiBpbmZvPSIwIj4NCiAgICAgIDx0ZXh0PiZsdDvQnC7QutC+0L3RgtGAJmd0OzwvdGV4dD4NCiAgICAgIDxpLXZhbHVlPjA8L2ktdmFsdWU+DQogICAgPC9Ub2tlbj4NCiAgPC9wb3N0Zml4LWZvcm0+DQogIDxVc2VkLUF0dHJzIGNvdW50PSIxIj4NCiAgICA8QXR0ci1JbmZvPg0KICAgICAgPGF0dHJJRD4xNzkyNzwvYXR0cklEPg0KICAgICAgPG9ialR5cGVJRD4tMTwvb2JqVHlwZUlEPg0KICAgICAgPEZ1bGwtQXR0cj4NCiAgICAgICAgPGFHVUlEPmY3OWQ0YTY3LWIzZmUtNDVmNS1iMTlmLTM1MjY3YjA2ZTZlNzwvYUdVSUQ+DQogICAgICAgIDxvR1VJRCAvPg0KICAgICAgPC9GdWxsLUF0dHI+DQogICAgICA8UGFpci1OYW1lPg0KICAgICAgICA8YXR0ci1zaG9ydG5hbWUgLz4NCiAgICAgICAgPGF0dHItbG9uZ25hbWU+0Jwu0LrQvtC90YLRgDwvYXR0ci1sb25nbmFtZT4NCiAgICAgICAgPG9ialR5cGUtc2hvcnRuYW1lIC8+DQogICAgICAgIDxvYmpUeXBlLWxvbmduYW1lIC8+DQogICAgICAgIDxmaWVsZC10eXBlPjEyPC9maWVsZC10eXBlPg0KICAgICAgICA8bXVsdGk+TjwvbXVsdGk+DQogICAgICA8L1BhaXItTmFtZT4NCiAgICA8L0F0dHItSW5mbz4NCiAgPC9Vc2VkLUF0dHJzPg0KPC9Gb3JtdWxhPg==</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=499,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420471</ID>
+      <TypeID>1313</TypeID>
+      <Caption>Нужен Утверждающий?</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>11</RealFileSize>
+        <Binary>77u/PFZhcnMgLz4=</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1331</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>885</RealFileSize>
+        <Binary>77u/PEZvcm11bGE+DQogIDxyZXMtdHlwZT41PC9yZXMtdHlwZT4NCiAgPHJlcy1tdWx0Pk48L3Jlcy1tdWx0Pg0KICA8aW5maXgtZm9ybSBjb3VudD0iMSI+DQogICAgPFRva2VuIHR5cGU9IjEwIiBpbmZvPSIwIj4NCiAgICAgIDx0ZXh0PiZsdDvQo9GC0LIuJmd0OzwvdGV4dD4NCiAgICAgIDxpLXZhbHVlPjA8L2ktdmFsdWU+DQogICAgPC9Ub2tlbj4NCiAgPC9pbmZpeC1mb3JtPg0KICA8cG9zdGZpeC1mb3JtIGNvdW50PSIxIj4NCiAgICA8VG9rZW4gdHlwZT0iMTAiIGluZm89IjAiPg0KICAgICAgPHRleHQ+Jmx0O9Cj0YLQsi4mZ3Q7PC90ZXh0Pg0KICAgICAgPGktdmFsdWU+MDwvaS12YWx1ZT4NCiAgICA8L1Rva2VuPg0KICA8L3Bvc3RmaXgtZm9ybT4NCiAgPFVzZWQtQXR0cnMgY291bnQ9IjEiPg0KICAgIDxBdHRyLUluZm8+DQogICAgICA8YXR0cklEPjE4OTgyPC9hdHRySUQ+DQogICAgICA8b2JqVHlwZUlEPi0xPC9vYmpUeXBlSUQ+DQogICAgICA8RnVsbC1BdHRyPg0KICAgICAgICA8YUdVSUQ+ZmJkYmMxOGMtNDY1OC00Nzk4LWE0NjEtNmRjNzY1ODQzN2ZhPC9hR1VJRD4NCiAgICAgICAgPG9HVUlEIC8+DQogICAgICA8L0Z1bGwtQXR0cj4NCiAgICAgIDxQYWlyLU5hbWU+DQogICAgICAgIDxhdHRyLXNob3J0bmFtZSAvPg0KICAgICAgICA8YXR0ci1sb25nbmFtZT7Qo9GC0LIuPC9hdHRyLWxvbmduYW1lPg0KICAgICAgICA8b2JqVHlwZS1zaG9ydG5hbWUgLz4NCiAgICAgICAgPG9ialR5cGUtbG9uZ25hbWUgLz4NCiAgICAgICAgPGZpZWxkLXR5cGU+MTI8L2ZpZWxkLXR5cGU+DQogICAgICAgIDxtdWx0aT5OPC9tdWx0aT4NCiAgICAgIDwvUGFpci1OYW1lPg0KICAgIDwvQXR0ci1JbmZvPg0KICA8L1VzZWQtQXR0cnM+DQo8L0Zvcm11bGE+</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>149</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHVzZUV4cGVydFN5c3RlbT4xPC91c2VFeHBlcnRTeXN0ZW0+DQogICAgPFByb2Nlc3NMQ0RpcmVjdGlvbj4wPC9Qcm9jZXNzTENEaXJlY3Rpb24+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=676,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420513</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Нач. ОТК</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>11</RealFileSize>
+        <Binary>77u/PFZhcnMgLz4=</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;1118761&lt;/ID&gt;
+    &lt;Guid&gt;f814e839-4eba-412d-a9ce-4f46a5a7f485&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="2" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1271,Y=381</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420515</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Зам. ген. дир. по производству</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>11</RealFileSize>
+        <Binary>77u/PFZhcnMgLz4=</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;1322325&lt;/ID&gt;
+    &lt;Guid&gt;efc81441-375d-449b-a468-94dbb46f44e2&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="3" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1225,Y=181</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420517</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Технический директор</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>11</RealFileSize>
+        <Binary>77u/PFZhcnMgLz4=</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;1144481&lt;/ID&gt;
+    &lt;Guid&gt;7b1ffccc-ec1c-4cd3-a764-12a9bf357aef&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="3" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1229,Y=281</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420521</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Гл. Технолог</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>11</RealFileSize>
+        <Binary>77u/PFZhcnMgLz4=</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants Flag="1"&gt;
+  &lt;Variable&gt;
+    &lt;ID&gt;17923&lt;/ID&gt;
+    &lt;Guid&gt;67dc8038-d0b8-42c3-a4fd-d7e9a444f039&lt;/Guid&gt;
+  &lt;/Variable&gt;
+  &lt;Rank&gt;
+    &lt;ID&gt;92684&lt;/ID&gt;
+    &lt;Guid&gt;e8f77a98-7931-4715-a35f-edf73a3d27d3&lt;/Guid&gt;
+  &lt;/Rank&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1329</ID>
+      <Value xsi:type="xsd:string">&lt;?xml version="1.0"?&gt;
+&lt;Intermech.Signs&gt;
+  &lt;SignGraphsCollection Caption="0"&gt;
+    &lt;SignGraph Value="2" StrongCheck="True" II="False" /&gt;
+  &lt;/SignGraphsCollection&gt;
+&lt;/Intermech.Signs&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>281</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgICA8QWxsb3dlZEF0dGFjaFR5cGVzSUQ+MzwvQWxsb3dlZEF0dGFjaFR5cGVzSUQ+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1260,Y=481</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420557</ID>
+      <TypeID>1313</TypeID>
+      <Caption>Заполняем ТЛ?</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1319</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>11</RealFileSize>
+        <Binary>77u/PFZhcnMgLz4=</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1331</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>939</RealFileSize>
+        <Binary>77u/PEZvcm11bGE+DQogIDxyZXMtdHlwZT41PC9yZXMtdHlwZT4NCiAgPHJlcy1tdWx0Pk48L3Jlcy1tdWx0Pg0KICA8aW5maXgtZm9ybSBjb3VudD0iMSI+DQogICAgPFRva2VuIHR5cGU9IjEwIiBpbmZvPSIwIj4NCiAgICAgIDx0ZXh0PiZsdDvQl9Cw0L/QvtC70L3QtdC90LjQtSDQotCbJmd0OzwvdGV4dD4NCiAgICAgIDxpLXZhbHVlPjA8L2ktdmFsdWU+DQogICAgPC9Ub2tlbj4NCiAgPC9pbmZpeC1mb3JtPg0KICA8cG9zdGZpeC1mb3JtIGNvdW50PSIxIj4NCiAgICA8VG9rZW4gdHlwZT0iMTAiIGluZm89IjAiPg0KICAgICAgPHRleHQ+Jmx0O9CX0LDQv9C+0LvQvdC10L3QuNC1INCi0JsmZ3Q7PC90ZXh0Pg0KICAgICAgPGktdmFsdWU+MDwvaS12YWx1ZT4NCiAgICA8L1Rva2VuPg0KICA8L3Bvc3RmaXgtZm9ybT4NCiAgPFVzZWQtQXR0cnMgY291bnQ9IjEiPg0KICAgIDxBdHRyLUluZm8+DQogICAgICA8YXR0cklEPjE4OTg0PC9hdHRySUQ+DQogICAgICA8b2JqVHlwZUlEPi0xPC9vYmpUeXBlSUQ+DQogICAgICA8RnVsbC1BdHRyPg0KICAgICAgICA8YUdVSUQ+M2Y3MDE3YTUtYzRlYy00MWU5LTliMmQtZTNjNzEzYmU2YTliPC9hR1VJRD4NCiAgICAgICAgPG9HVUlEIC8+DQogICAgICA8L0Z1bGwtQXR0cj4NCiAgICAgIDxQYWlyLU5hbWU+DQogICAgICAgIDxhdHRyLXNob3J0bmFtZSAvPg0KICAgICAgICA8YXR0ci1sb25nbmFtZT7Ql9Cw0L/QvtC70L3QtdC90LjQtSDQotCbPC9hdHRyLWxvbmduYW1lPg0KICAgICAgICA8b2JqVHlwZS1zaG9ydG5hbWUgLz4NCiAgICAgICAgPG9ialR5cGUtbG9uZ25hbWUgLz4NCiAgICAgICAgPGZpZWxkLXR5cGU+MTI8L2ZpZWxkLXR5cGU+DQogICAgICAgIDxtdWx0aT5OPC9tdWx0aT4NCiAgICAgIDwvUGFpci1OYW1lPg0KICAgIDwvQXR0ci1JbmZvPg0KICA8L1VzZWQtQXR0cnM+DQo8L0Zvcm11bGE+</Binary>
+      </Blob>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>149</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHVzZUV4cGVydFN5c3RlbT4xPC91c2VFeHBlcnRTeXN0ZW0+DQogICAgPFByb2Nlc3NMQ0RpcmVjdGlvbj4wPC9Qcm9jZXNzTENEaXJlY3Rpb24+DQogIDwvUHJvcHM+DQo8L2luaT4=</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">R</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1001,Y=331</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420986</ID>
+      <TypeID>1460</TypeID>
+      <Caption>Проверка подписей ТЛ</Caption>
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1042</ID>
+      <Value xsi:type="xsd:boolean">true</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1317</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1325</ID>
+      <Value xsi:type="xsd:string">&lt;Participants&gt;
+  &lt;Variable&gt;
+    &lt;ID&gt;1394&lt;/ID&gt;
+    &lt;Guid&gt;cad00358-306c-11d8-b4e9-00304f19f545&lt;/Guid&gt;
+  &lt;/Variable&gt;
+&lt;/Participants&gt;</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1326</ID>
+      <Value xsi:type="xsd:long">4</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1330</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1335</ID>
+      <Blob>
+        <Arc>NotPacked</Arc>
+        <RealFileSize>439</RealFileSize>
+        <Binary>PD94bWwgdmVyc2lvbj0iMS4wIj8+DQo8aW5pPg0KICA8UHJvcHM+DQogICAgPHNlbmRQYXJ0aWNpcGFudHNFbWFpbD4xPC9zZW5kUGFydGljaXBhbnRzRW1haWw+DQogICAgPFNlbmRXb3JrT2ZmZXJMYXN0UGFydGljaXBhbnQ+MDwvU2VuZFdvcmtPZmZlckxhc3RQYXJ0aWNpcGFudD4NCiAgICA8VGVzdE9ubHk+MTwvVGVzdE9ubHk+DQogICAgPFNldHRpbmdzQWN0cz44YTVhMTVkOC1mYWY1LTRhMTEtYThjNy1hNTM3Yzc1ZjE3OTEsMzJjN2I1ZWYtYTkwNy00NDA3LWFkNzQtYjYyYjJiNmVlOTQ5LGFhZGU0NWY2LWY2MDAtNDViYy04ZDI1LTY4NGM2NDk0MWJhYSwyNWYzNjQ3NC0yMGZjLTRlZmEtOWEwMC0xNTllZmI2MmFkZGE8L1NldHRpbmdzQWN0cz4NCiAgICA8UHJvY2Vzc0xDRGlyZWN0aW9uPjA8L1Byb2Nlc3NMQ0RpcmVjdGlvbj4NCiAgPC9Qcm9wcz4NCjwvaW5pPg==</Binary>
+      </Blob>
+      <Value xsi:type="xsd:string">AR</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">X=1428,Y=431</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>18548</ID>
+      <Value xsi:type="xsd:boolean">false</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1421000</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420986</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">4</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=5|1050|170|1500|170|1500|630|1050|630|1050|170</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420998</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1149069</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">3</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420996</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420986</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1149069</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420994</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420517</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420986</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420992</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420515</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420986</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420990</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420513</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420986</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420988</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420521</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420986</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420569</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420521</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420567</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420513</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420565</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420517</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420563</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420515</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420559</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148342</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420557</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420555</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420515</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|1300|181|1300|131|1300|101|60|101|60|181|60|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420551</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420517</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|1300|281|1300|231|1300|120|70|120|70|181|70|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420549</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420513</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|1300|381|1300|331|1300|133|80|133|80|181|80|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420547</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420521</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|1300|481|1300|431|1300|148|100|148|100|181|100|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420481</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148342</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|950|331|950|281|950|144|90|144|90|181|90|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420479</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420471</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148342</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">3</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420477</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1420471</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148340</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420475</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148344</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420471</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420473</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1170370</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1420471</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">3</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420467</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148340</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148342</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1420461</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148330</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1170370</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170374</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1170370</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148344</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">2</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170190</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1149069</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1147547</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170188</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1170174</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|300|331|300|281|300|184|140|184|140|181|140|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170180</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148330</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|400|331|400|281|400|173|130|173|130|181|130|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170178</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1170174</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148330</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1170176</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148326</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1170174</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1151040</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1147545</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148326</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1151038</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1147545</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">0</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1149225</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148340</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|850|431|850|381|850|162|120|162|120|181|120|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1149213</ID>
+      <TypeID>1151</TypeID>
+      <Caption />
+      <LCStep>1002</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1306</ID>
+      <Value xsi:type="xsd:long">1147543</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1370</ID>
+      <Value xsi:type="xsd:long">1148344</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1371</ID>
+      <Value xsi:type="xsd:long">1148348</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1388</ID>
+      <Value xsi:type="xsd:long">1</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>17579</ID>
+      <Value xsi:type="xsd:string">P=6|650|431|650|381|650|153|110|153|110|181|110|231</Value>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseObject">
+      <ID>1359182</ID>
+      <TypeID>1890</TypeID>
+      <Caption>Формирование аутентичных файлов</Caption>
+      <LCStep>10004</LCStep>
+    </BriefcaseItem>
+    <BriefcaseItem xsi:type="BriefcaseAttribute">
+      <ID>1324</ID>
+      <Value xsi:type="xsd:string">using System;
+using System.Text;
+using System.Data;
+using System.Xml;
+using System.Collections.Generic;
+using System.Windows.Forms;
+using Intermech;
+using Intermech.Interfaces;
+using Intermech.Interfaces.Workflow;
+using Intermech.Interfaces.Client;
+using Intermech.Kernel.Search;
+
+public class Script
+{
+    public ICSharpScriptContext ScriptContext {get; private set;}
+    
+    public void Execute(IActivity activity)
+    {
+        // получение сессии
+        IUserSession session = activity.Session;
+        // получение списков связи Изменяемые объекты
+        IDBRelationCollection relCollection = session.GetRelationCollection(MetaDataHelper.GetRelationTypeID(new Guid("cad0036b-306c-11d8-b4e9-00304f19f545" /*Изменяемые объекты*/)));
+        // текст ошибки
+        StringBuilder errObjs = new StringBuilder();
+        // коллекция ids объектов для формирования аутентичных файлов
+        List&lt;long&gt; objIDsList = new List&lt;long&gt;();
+        
+        for (int i = 0; i &lt; activity.Attachments.Count; i++)
+        {
+            IDBObject obj = activity.Attachments[i].Object;
+            // добавление в коллекцию вложения
+            objIDsList.Add(obj.ObjectID);
+            // если вложение ИИ - раскривается его состав
+            if (MetaDataHelper.GetObjectTypeChildrenIDRecursive(new Guid("cad00348-306c-11d8-b4e9-00304f19f545" /*Извещения*/)).IndexOf(obj.ObjectType) &gt; 0)
+            {
+                // получение состава ИИ
+                DataTable dtRevConsist = relCollection.ConsistFrom(new DBRecordSetParams(null, new object[] {(int)ObligatoryObjectAttributes.F_OBJECT_ID}), obj.ObjectID);
+                foreach(DataRow row in dtRevConsist.Rows)
+                {
+                    // добавление в коллекцию  из состава ИИ
+                    objIDsList.Add( Convert.ToInt64(row[0]));
+                }
+            }
+        }
+        
+        // формирование аутентичных файлов
+        AuthFileHelper.Create(session, objIDsList.ToArray(), errObjs);
+        
+        // если есть ошибки - вывод диалога
+        if (errObjs.Length &gt; 0)
+        {
+            if (MessageBox.Show("Для следующих документов не удалось сформировать аутентичные документы: \n" + errObjs.ToString() + "\n Продолжить выполнение процесса?", "Внимание", MessageBoxButtons.YesNo, MessageBoxIcon.Warning, MessageBoxDefaultButton.Button2) == DialogResult.No)
+            {
+                // пользователь нажал нет - отправка далее не происходит
+                throw new AbortException();
+            }
+        }
+    }
+}
+
+/// &lt;summary&gt;
+/// Класс для формирования аутентичных файлов
+/// &lt;/summary&gt;
+class AuthFileHelper
+{
+    /// &lt;summary&gt;
+    /// Метод формирования аутентичных файлов
+    /// &lt;/summary&gt;
+    /// &lt;param name="session"&gt;сессия&lt;/param&gt;
+    /// &lt;param name="objIDs"&gt;массив ID для формирования аутентичных файлов&lt;/param&gt;
+    /// &lt;param name="errsTxt"&gt;текст ошибки&lt;/param&gt;
+    public static void Create(IUserSession session, long[] objIDs, StringBuilder errsTxt)
+    {
+        // получение сервиса для формирования аутентичных файлов
+        IAuthFilesService iAuthFilesService = ServicesManager.GetService(typeof(IAuthFilesService)) as IAuthFilesService;
+        // сервис не найден - выход
+        if (iAuthFilesService == null) return;
+        
+        foreach(long objID in objIDs)
+        {
+            // получение конкретного объекта
+            IDBObject obj = session.GetObject(objID);
+            // если является документом
+            if (MetaDataHelper.GetObjectTypeChildrenIDRecursive(new Guid("cad00070-306c-11d8-b4e9-00304f19f545")).IndexOf(obj.ObjectType) &gt;= 0 &amp;&amp;
+            obj.ObjectType != MetaDataHelper.GetObjectTypeID(new Guid("cadd9baf-306c-11d8-b4e9-00304f19f545")) &amp;&amp;
+            obj.ObjectType != MetaDataHelper.GetObjectTypeID(new Guid("cad00768-306c-11d8-b4e9-00304f19f545")))
+            {
+                try
+                {
+                    // аргумент для формирования аутентичного файла
+                    AuthFileAssignEventArgs authFileAssignEventArgs = new AuthFileAssignEventArgs(obj.ObjectType, obj.ObjectID, true);
+                    // инициирование события генерации аутентичного файла
+                    iAuthFilesService.FireEventAuthFileAssign(authFileAssignEventArgs);
+                    // не удалось сформировать аутентичный файл
+                    if (!authFileAssignEventArgs.IsHandled)
+                        // текст ошибки
+                    errsTxt.AppendLine(" - " + obj.ObjectID.ToString() + " " + obj.Caption + " " + MetaDataHelper.GetObjectType(obj.ObjectType).ObjectName);
+                }
+                catch
+                {
+                    // ошибка во время формирования аутентичного файла
+                    errsTxt.AppendLine(" - " + obj.ObjectID.ToString() + " " + obj.Caption + " " + MetaDataHelper.GetObjectType(obj.ObjectType).ObjectName);
+                }		
+            }
+        }
+    }
+}</Value>
+    </BriefcaseItem>
+  </Items>
+  <CreateVariables>false</CreateVariables>
+</SimpleBriefcase>

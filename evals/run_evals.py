@@ -4,7 +4,7 @@ import json
 import sys
 from pathlib import Path
 
-FILES = ("technologist.json", "system-helper.json", "programmer.json")
+FILES = ("technologist.json", "system-helper.json", "programmer.json", "workflow.json")
 EXPECTED_FIELDS = ("expected_route", "expected_tools")
 
 def main():
